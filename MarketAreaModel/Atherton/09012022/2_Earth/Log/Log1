@@ -1,0 +1,2030 @@
+INFO [2022-08-22 14:21:58] Load MLS Excel and Mapping 
+INFO [2022-08-22 14:23:02] Load MLS Excel and Mapping 
+INFO [2022-08-22 14:23:32] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:06:44] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:06:45] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:06:45] Compress Column Names 
+INFO [2022-08-22 15:06:45] Convert Dates To Char 
+INFO [2022-08-22 15:06:45] Write DataFrames to SQLite 
+INFO [2022-08-22 15:06:45] Add Fields 
+INFO [2022-08-22 15:06:45] Rename Fields 
+INFO [2022-08-22 15:06:45] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:06:45] Do Calculations 
+INFO [2022-08-22 15:11:41] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:11:42] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:11:42] Compress Column Names 
+INFO [2022-08-22 15:11:42] Convert Dates To Char 
+INFO [2022-08-22 15:11:42] Write DataFrames to SQLite 
+INFO [2022-08-22 15:11:42] Add Fields 
+INFO [2022-08-22 15:11:42] Rename Fields 
+INFO [2022-08-22 15:11:42] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:11:42] Do Calculations 
+INFO [2022-08-22 15:16:44] Convert Dates To Char 
+INFO [2022-08-22 15:16:44] Write DataFrames to SQLite 
+INFO [2022-08-22 15:16:44] Add Fields 
+INFO [2022-08-22 15:16:44] Rename Fields 
+INFO [2022-08-22 15:16:44] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:16:44] Do Calculations 
+INFO [2022-08-22 15:19:01] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:19:02] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:19:02] Compress Column Names 
+INFO [2022-08-22 15:19:02] Convert Dates To Char 
+INFO [2022-08-22 15:19:02] Write DataFrames to SQLite 
+INFO [2022-08-22 15:19:02] Add Fields 
+INFO [2022-08-22 15:19:02] Rename Fields 
+INFO [2022-08-22 15:19:02] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:19:02] Do Calculations 
+INFO [2022-08-22 15:19:29] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:19:30] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:19:30] Compress Column Names 
+INFO [2022-08-22 15:19:30] Convert Dates To Char 
+INFO [2022-08-22 15:19:30] Write DataFrames to SQLite 
+INFO [2022-08-22 15:19:30] Add Fields 
+INFO [2022-08-22 15:19:30] Rename Fields 
+INFO [2022-08-22 15:19:30] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:19:30] Do Calculations 
+INFO [2022-08-22 15:20:25] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:20:26] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:20:26] Compress Column Names 
+INFO [2022-08-22 15:20:26] Convert Dates To Char 
+INFO [2022-08-22 15:20:26] Write DataFrames to SQLite 
+INFO [2022-08-22 15:20:26] Add Fields 
+INFO [2022-08-22 15:20:26] Rename Fields 
+INFO [2022-08-22 15:20:26] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:20:26] Do Calculations 
+INFO [2022-08-22 15:24:27] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:25:01] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:25:01] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:25:01] Compress Column Names 
+INFO [2022-08-22 15:25:01] Convert Dates To Char 
+INFO [2022-08-22 15:25:01] Write DataFrames to SQLite 
+INFO [2022-08-22 15:25:02] Add Fields 
+INFO [2022-08-22 15:25:02] Rename Fields 
+INFO [2022-08-22 15:25:02] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:25:02] Do Calculations 
+INFO [2022-08-22 15:25:12] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:25:13] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:25:13] Compress Column Names 
+INFO [2022-08-22 15:25:13] Convert Dates To Char 
+INFO [2022-08-22 15:25:13] Write DataFrames to SQLite 
+INFO [2022-08-22 15:25:13] Add Fields 
+INFO [2022-08-22 15:25:13] Rename Fields 
+INFO [2022-08-22 15:25:13] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:25:13] Do Calculations 
+INFO [2022-08-22 15:25:14] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:25:15] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:25:15] Compress Column Names 
+INFO [2022-08-22 15:25:15] Convert Dates To Char 
+INFO [2022-08-22 15:25:15] Write DataFrames to SQLite 
+INFO [2022-08-22 15:25:15] Add Fields 
+INFO [2022-08-22 15:25:15] Rename Fields 
+INFO [2022-08-22 15:25:15] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:25:15] Do Calculations 
+INFO [2022-08-22 15:26:41] Compress Column Names 
+INFO [2022-08-22 15:26:55] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:26:56] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:26:56] Compress Column Names 
+INFO [2022-08-22 15:26:56] Convert Dates To Char 
+INFO [2022-08-22 15:26:56] Write DataFrames to SQLite 
+INFO [2022-08-22 15:26:56] Add Fields 
+INFO [2022-08-22 15:26:56] Rename Fields 
+INFO [2022-08-22 15:26:56] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:26:56] Do Calculations 
+INFO [2022-08-22 15:29:08] Load MLS Excel and Mapping 
+INFO [2022-08-22 15:29:08] Check Original Nameps in MLSData 
+INFO [2022-08-22 15:29:08] Compress Column Names 
+INFO [2022-08-22 15:29:08] Convert Dates To Char 
+INFO [2022-08-22 15:29:08] Write DataFrames to SQLite 
+INFO [2022-08-22 15:29:08] Add Fields 
+INFO [2022-08-22 15:29:08] Rename Fields 
+INFO [2022-08-22 15:29:08] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 15:29:08] Do Calculations 
+INFO [2022-08-22 16:13:27] Load MLS Excel and Mapping 
+INFO [2022-08-22 16:13:28] Check Original Nameps in MLSData 
+INFO [2022-08-22 16:13:28] Compress Column Names 
+INFO [2022-08-22 16:13:28] Convert Dates To Char 
+INFO [2022-08-22 16:13:28] Write DataFrames to SQLite 
+INFO [2022-08-22 16:13:28] Add Fields 
+INFO [2022-08-22 16:13:28] Rename Fields 
+INFO [2022-08-22 16:13:28] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 16:13:28] Do Calculations 
+INFO [2022-08-22 16:13:28] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_161327/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 16:13:28] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_161327/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 16:13:28] Done with Set-Up
+INFO [2022-08-22 16:14:00] Create Estimate and Residual
+INFO [2022-08-22 16:14:00] Load files
+INFO [2022-08-22 16:14:00] Load Interaction Table
+INFO [2022-08-22 16:14:00] Calling earth.
+INFO [2022-08-22 16:14:00] Calling R/earth.  This may take some time. 
+INFO [2022-08-22 19:11:03] Load MLS Excel and Mapping 
+INFO [2022-08-22 19:11:04] Check Original Nameps in MLSData 
+INFO [2022-08-22 19:11:04] Compress Column Names 
+INFO [2022-08-22 19:11:04] Convert Dates To Char 
+INFO [2022-08-22 19:11:04] Write DataFrames to SQLite 
+INFO [2022-08-22 19:11:04] Add Fields 
+INFO [2022-08-22 19:11:04] Rename Fields 
+INFO [2022-08-22 19:11:04] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 19:11:04] Do Calculations 
+INFO [2022-08-22 19:11:04] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_191103/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:11:04] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_191103/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:11:04] Done with Set-Up
+INFO [2022-08-22 19:11:04] Create Estimate and Residual
+INFO [2022-08-22 19:11:04] Load files
+INFO [2022-08-22 19:11:04] Load Interaction Table
+INFO [2022-08-22 19:11:04] Calling earth.
+INFO [2022-08-22 19:11:04] Calling R/earth.  This may take some time. 
+INFO [2022-08-22 19:14:36] Load MLS Excel and Mapping 
+INFO [2022-08-22 19:14:36] Check Original Nameps in MLSData 
+INFO [2022-08-22 19:14:36] Compress Column Names 
+INFO [2022-08-22 19:14:36] Convert Dates To Char 
+INFO [2022-08-22 19:14:36] Write DataFrames to SQLite 
+INFO [2022-08-22 19:14:37] Add Fields 
+INFO [2022-08-22 19:14:37] Rename Fields 
+INFO [2022-08-22 19:14:37] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 19:14:37] Do Calculations 
+INFO [2022-08-22 19:14:37] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_191436/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:14:37] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_191436/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:14:37] Done with Set-Up
+INFO [2022-08-22 19:14:37] Create Estimate and Residual
+INFO [2022-08-22 19:14:37] Load files
+INFO [2022-08-22 19:14:37] Load Interaction Table
+INFO [2022-08-22 19:14:37] Calling earth.
+INFO [2022-08-22 19:14:37] Calling R/earth.  This may take some time. 
+INFO [2022-08-22 19:27:57] Load MLS Excel and Mapping 
+INFO [2022-08-22 19:27:58] Check Original Nameps in MLSData 
+INFO [2022-08-22 19:27:58] Compress Column Names 
+INFO [2022-08-22 19:27:58] Convert Dates To Char 
+INFO [2022-08-22 19:27:58] Write DataFrames to SQLite 
+INFO [2022-08-22 19:27:58] Add Fields 
+INFO [2022-08-22 19:27:58] Rename Fields 
+INFO [2022-08-22 19:27:58] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 19:27:58] Do Calculations 
+INFO [2022-08-22 19:27:59] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_192757/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:27:59] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_192757/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:27:59] Done with Set-Up
+INFO [2022-08-22 19:27:59] Create Estimate and Residual
+INFO [2022-08-22 19:27:59] Load files
+INFO [2022-08-22 19:27:59] Load Interaction Table
+INFO [2022-08-22 19:27:59] Calling earth.
+INFO [2022-08-22 19:27:59] Calling R/earth.  This may take some time. 
+INFO [2022-08-22 19:30:17] Load MLS Excel and Mapping 
+INFO [2022-08-22 19:30:18] Check Original Nameps in MLSData 
+INFO [2022-08-22 19:30:18] Compress Column Names 
+INFO [2022-08-22 19:30:18] Convert Dates To Char 
+INFO [2022-08-22 19:30:18] Write DataFrames to SQLite 
+INFO [2022-08-22 19:30:18] Add Fields 
+INFO [2022-08-22 19:30:18] Rename Fields 
+INFO [2022-08-22 19:30:18] Convert DF Fields Bool To Binary 
+INFO [2022-08-22 19:30:18] Do Calculations 
+INFO [2022-08-22 19:30:18] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_193017/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:30:18] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220822_193017/Appraisal_2_StageI.xlsx
+INFO [2022-08-22 19:30:18] Done with Set-Up
+INFO [2022-08-22 19:30:18] Create Estimate and Residual
+INFO [2022-08-22 19:30:18] Load files
+INFO [2022-08-22 19:30:18] Load Interaction Table
+INFO [2022-08-22 19:30:18] Calling earth.
+INFO [2022-08-22 19:30:18] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 15:13:19] Load MLS Excel and Mapping 
+INFO [2022-08-24 15:13:20] Check Original Nameps in MLSData 
+INFO [2022-08-24 15:13:20] Compress Column Names 
+INFO [2022-08-24 15:13:20] Convert Dates To Char 
+INFO [2022-08-24 15:13:20] Write DataFrames to SQLite 
+INFO [2022-08-24 15:13:20] Add Fields 
+INFO [2022-08-24 15:13:20] Rename Fields 
+INFO [2022-08-24 15:13:20] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 15:13:20] Do Calculations 
+INFO [2022-08-24 15:13:20] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_151319/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 15:13:20] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_151319/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 15:13:20] Done with Set-Up
+INFO [2022-08-24 15:13:51] Create Estimate and Residual
+INFO [2022-08-24 15:13:51] Load files
+INFO [2022-08-24 15:13:51] Load Interaction Table
+INFO [2022-08-24 15:13:51] Calling earth.
+INFO [2022-08-24 15:13:51] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:06:57] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:06:58] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:06:58] Compress Column Names 
+INFO [2022-08-24 19:06:58] Convert Dates To Char 
+INFO [2022-08-24 19:06:58] Write DataFrames to SQLite 
+INFO [2022-08-24 19:06:58] Add Fields 
+INFO [2022-08-24 19:06:58] Rename Fields 
+INFO [2022-08-24 19:06:59] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:06:59] Do Calculations 
+INFO [2022-08-24 19:06:59] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_190657/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:06:59] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_190657/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:06:59] Done with Set-Up
+INFO [2022-08-24 19:07:30] Create Estimate and Residual
+INFO [2022-08-24 19:07:30] Load files
+INFO [2022-08-24 19:07:30] Load Interaction Table
+INFO [2022-08-24 19:07:30] Calling earth.
+INFO [2022-08-24 19:07:30] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:12:28] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:12:29] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:12:29] Compress Column Names 
+INFO [2022-08-24 19:12:29] Convert Dates To Char 
+INFO [2022-08-24 19:12:29] Write DataFrames to SQLite 
+INFO [2022-08-24 19:12:29] Add Fields 
+INFO [2022-08-24 19:12:29] Rename Fields 
+INFO [2022-08-24 19:12:29] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:12:29] Do Calculations 
+INFO [2022-08-24 19:12:30] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_191228/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:12:30] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_191228/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:12:30] Done with Set-Up
+INFO [2022-08-24 19:14:00] Create Estimate and Residual
+INFO [2022-08-24 19:14:00] Load files
+INFO [2022-08-24 19:14:00] Load Interaction Table
+INFO [2022-08-24 19:14:00] Calling earth.
+INFO [2022-08-24 19:14:00] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:20:30] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:20:30] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:20:30] Compress Column Names 
+INFO [2022-08-24 19:20:30] Convert Dates To Char 
+INFO [2022-08-24 19:20:31] Write DataFrames to SQLite 
+INFO [2022-08-24 19:20:31] Add Fields 
+INFO [2022-08-24 19:20:31] Rename Fields 
+INFO [2022-08-24 19:20:31] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:20:31] Do Calculations 
+INFO [2022-08-24 19:20:31] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_192030/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:20:31] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_192030/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:20:31] Done with Set-Up
+INFO [2022-08-24 19:20:48] Create Estimate and Residual
+INFO [2022-08-24 19:20:48] Load files
+INFO [2022-08-24 19:20:48] Load Interaction Table
+INFO [2022-08-24 19:20:48] Calling earth.
+INFO [2022-08-24 19:20:48] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:28:03] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:28:04] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:28:04] Compress Column Names 
+INFO [2022-08-24 19:28:04] Convert Dates To Char 
+INFO [2022-08-24 19:28:04] Write DataFrames to SQLite 
+INFO [2022-08-24 19:28:04] Add Fields 
+INFO [2022-08-24 19:28:04] Rename Fields 
+INFO [2022-08-24 19:28:04] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:28:04] Do Calculations 
+INFO [2022-08-24 19:28:05] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_192803/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:28:05] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_192803/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:28:05] Done with Set-Up
+INFO [2022-08-24 19:28:05] Create Estimate and Residual
+INFO [2022-08-24 19:28:05] Load files
+INFO [2022-08-24 19:28:05] Load Interaction Table
+INFO [2022-08-24 19:28:05] Calling earth.
+INFO [2022-08-24 19:28:05] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:30:03] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:30:04] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:30:04] Compress Column Names 
+INFO [2022-08-24 19:30:04] Convert Dates To Char 
+INFO [2022-08-24 19:30:04] Write DataFrames to SQLite 
+INFO [2022-08-24 19:30:04] Add Fields 
+INFO [2022-08-24 19:30:04] Rename Fields 
+INFO [2022-08-24 19:30:04] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:30:04] Do Calculations 
+INFO [2022-08-24 19:30:04] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193003/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:30:05] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193003/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:30:05] Done with Set-Up
+INFO [2022-08-24 19:30:05] Create Estimate and Residual
+INFO [2022-08-24 19:30:05] Load files
+INFO [2022-08-24 19:30:05] Load Interaction Table
+INFO [2022-08-24 19:30:05] Calling earth.
+INFO [2022-08-24 19:30:05] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:35:30] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:35:30] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:35:30] Compress Column Names 
+INFO [2022-08-24 19:35:31] Convert Dates To Char 
+INFO [2022-08-24 19:35:31] Write DataFrames to SQLite 
+INFO [2022-08-24 19:35:31] Add Fields 
+INFO [2022-08-24 19:35:31] Rename Fields 
+INFO [2022-08-24 19:35:31] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:35:31] Do Calculations 
+INFO [2022-08-24 19:35:31] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193530/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:35:31] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193530/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:35:31] Done with Set-Up
+INFO [2022-08-24 19:35:31] Create Estimate and Residual
+INFO [2022-08-24 19:35:31] Load files
+INFO [2022-08-24 19:35:31] Load Interaction Table
+INFO [2022-08-24 19:35:31] Calling earth.
+INFO [2022-08-24 19:35:31] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:38:33] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:38:34] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:38:34] Compress Column Names 
+INFO [2022-08-24 19:38:34] Convert Dates To Char 
+INFO [2022-08-24 19:38:34] Write DataFrames to SQLite 
+INFO [2022-08-24 19:38:35] Add Fields 
+INFO [2022-08-24 19:38:35] Rename Fields 
+INFO [2022-08-24 19:38:35] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:38:35] Do Calculations 
+INFO [2022-08-24 19:38:35] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193833/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:38:35] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193833/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:38:35] Done with Set-Up
+INFO [2022-08-24 19:38:35] Create Estimate and Residual
+INFO [2022-08-24 19:38:35] Load files
+INFO [2022-08-24 19:38:35] Load Interaction Table
+INFO [2022-08-24 19:38:35] Calling earth.
+INFO [2022-08-24 19:38:35] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:39:15] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:39:15] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:39:15] Compress Column Names 
+INFO [2022-08-24 19:39:15] Convert Dates To Char 
+INFO [2022-08-24 19:39:15] Write DataFrames to SQLite 
+INFO [2022-08-24 19:39:15] Add Fields 
+INFO [2022-08-24 19:39:15] Rename Fields 
+INFO [2022-08-24 19:39:15] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:39:15] Do Calculations 
+INFO [2022-08-24 19:39:16] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193915/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:39:16] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_193915/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:39:16] Done with Set-Up
+INFO [2022-08-24 19:39:16] Create Estimate and Residual
+INFO [2022-08-24 19:39:16] Load files
+INFO [2022-08-24 19:39:16] Load Interaction Table
+INFO [2022-08-24 19:39:16] Calling earth.
+INFO [2022-08-24 19:39:16] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:42:04] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:42:05] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:42:05] Compress Column Names 
+INFO [2022-08-24 19:42:05] Convert Dates To Char 
+INFO [2022-08-24 19:42:05] Write DataFrames to SQLite 
+INFO [2022-08-24 19:42:05] Add Fields 
+INFO [2022-08-24 19:42:05] Rename Fields 
+INFO [2022-08-24 19:42:05] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:42:05] Do Calculations 
+INFO [2022-08-24 19:42:06] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_194204/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:42:06] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_194204/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:42:06] Done with Set-Up
+INFO [2022-08-24 19:42:06] Create Estimate and Residual
+INFO [2022-08-24 19:42:06] Load files
+INFO [2022-08-24 19:42:06] Load Interaction Table
+INFO [2022-08-24 19:42:06] Calling earth.
+INFO [2022-08-24 19:42:06] Calling R/earth.  This may take some time. 
+INFO [2022-08-24 19:54:04] Load MLS Excel and Mapping 
+INFO [2022-08-24 19:54:05] Check Original Nameps in MLSData 
+INFO [2022-08-24 19:54:05] Compress Column Names 
+INFO [2022-08-24 19:54:05] Convert Dates To Char 
+INFO [2022-08-24 19:54:05] Write DataFrames to SQLite 
+INFO [2022-08-24 19:54:05] Add Fields 
+INFO [2022-08-24 19:54:05] Rename Fields 
+INFO [2022-08-24 19:54:05] Convert DF Fields Bool To Binary 
+INFO [2022-08-24 19:54:05] Do Calculations 
+INFO [2022-08-24 19:54:05] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_195404/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:54:05] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220824_195404/Appraisal_2_StageI.xlsx
+INFO [2022-08-24 19:54:05] Done with Set-Up
+INFO [2022-08-24 19:54:05] Create Estimate and Residual
+INFO [2022-08-24 19:54:05] Load files
+INFO [2022-08-24 19:54:05] Load Interaction Table
+INFO [2022-08-24 19:54:06] Calling earth.
+INFO [2022-08-24 19:54:06] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 11:52:27] Load MLS Excel and Mapping 
+INFO [2022-08-29 11:52:27] Check Original Nameps in MLSData 
+INFO [2022-08-29 11:52:27] Compress Column Names 
+INFO [2022-08-29 11:52:27] Convert Dates To Char 
+INFO [2022-08-29 11:52:27] Write DataFrames to SQLite 
+INFO [2022-08-29 11:52:28] Add Fields 
+INFO [2022-08-29 11:52:28] Rename Fields 
+INFO [2022-08-29 11:52:28] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 11:52:28] Do Calculations 
+INFO [2022-08-29 11:52:28] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_115227/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 11:52:28] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_115227/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 11:52:28] Done with Set-Up
+INFO [2022-08-29 11:52:39] Create Estimate and Residual
+INFO [2022-08-29 11:52:39] Load files
+INFO [2022-08-29 11:52:39] Load Interaction Table
+INFO [2022-08-29 11:52:39] Calling earth.
+INFO [2022-08-29 11:52:39] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 11:57:51] Load MLS Excel and Mapping 
+INFO [2022-08-29 11:57:52] Check Original Nameps in MLSData 
+INFO [2022-08-29 11:57:52] Compress Column Names 
+INFO [2022-08-29 11:57:52] Convert Dates To Char 
+INFO [2022-08-29 11:57:52] Write DataFrames to SQLite 
+INFO [2022-08-29 11:57:52] Add Fields 
+INFO [2022-08-29 11:57:52] Rename Fields 
+INFO [2022-08-29 11:57:52] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 11:57:52] Do Calculations 
+INFO [2022-08-29 11:57:52] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_115751/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 11:57:52] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_115751/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 11:57:52] Done with Set-Up
+INFO [2022-08-29 11:58:00] Create Estimate and Residual
+INFO [2022-08-29 11:58:00] Load files
+INFO [2022-08-29 11:58:01] Load Interaction Table
+INFO [2022-08-29 11:58:01] Calling earth.
+INFO [2022-08-29 11:58:01] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 12:10:06] Load MLS Excel and Mapping 
+INFO [2022-08-29 12:10:06] Check Original Nameps in MLSData 
+INFO [2022-08-29 12:10:06] Compress Column Names 
+INFO [2022-08-29 12:10:06] Convert Dates To Char 
+INFO [2022-08-29 12:10:06] Write DataFrames to SQLite 
+INFO [2022-08-29 12:10:07] Add Fields 
+INFO [2022-08-29 12:10:07] Rename Fields 
+INFO [2022-08-29 12:10:07] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 12:10:07] Do Calculations 
+INFO [2022-08-29 12:10:07] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_121006/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 12:10:07] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_121006/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 12:10:07] Done with Set-Up
+INFO [2022-08-29 12:10:15] Create Estimate and Residual
+INFO [2022-08-29 12:10:15] Load files
+INFO [2022-08-29 12:10:15] Load Interaction Table
+INFO [2022-08-29 12:10:15] Calling earth.
+INFO [2022-08-29 12:10:15] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 12:14:52] Load MLS Excel and Mapping 
+INFO [2022-08-29 12:14:53] Check Original Nameps in MLSData 
+INFO [2022-08-29 12:14:53] Compress Column Names 
+INFO [2022-08-29 12:14:53] Convert Dates To Char 
+INFO [2022-08-29 12:14:53] Write DataFrames to SQLite 
+INFO [2022-08-29 12:14:53] Add Fields 
+INFO [2022-08-29 12:14:53] Rename Fields 
+INFO [2022-08-29 12:14:53] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 12:14:53] Do Calculations 
+INFO [2022-08-29 12:14:53] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_121452/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 12:14:53] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_121452/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 12:14:53] Done with Set-Up
+INFO [2022-08-29 12:14:53] Create Estimate and Residual
+INFO [2022-08-29 12:14:53] Load files
+INFO [2022-08-29 12:14:54] Load Interaction Table
+INFO [2022-08-29 12:14:54] Calling earth.
+INFO [2022-08-29 12:14:54] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 12:34:25] Load MLS Excel and Mapping 
+INFO [2022-08-29 12:34:26] Check Original Nameps in MLSData 
+INFO [2022-08-29 12:34:26] Compress Column Names 
+INFO [2022-08-29 12:34:26] Convert Dates To Char 
+INFO [2022-08-29 12:34:26] Write DataFrames to SQLite 
+INFO [2022-08-29 12:34:26] Add Fields 
+INFO [2022-08-29 12:34:27] Rename Fields 
+INFO [2022-08-29 12:34:27] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 12:34:27] Do Calculations 
+INFO [2022-08-29 12:34:27] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_123425/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 12:34:27] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_123425/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 12:34:27] Done with Set-Up
+INFO [2022-08-29 12:34:27] Create Estimate and Residual
+INFO [2022-08-29 12:34:27] Load files
+INFO [2022-08-29 12:34:27] Load Interaction Table
+INFO [2022-08-29 12:34:27] Calling earth.
+INFO [2022-08-29 12:34:27] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 13:31:29] R/earth finsihed.
+INFO [2022-08-29 13:31:32] Call predict to get estimate.
+INFO [2022-08-29 13:31:32] Calc residual.
+INFO [2022-08-29 13:32:15] Order MLS Data By Residual
+INFO [2022-08-29 13:32:44] Print MARS plot from earth.
+INFO [2022-08-29 13:33:22] Create CQA Mapping
+INFO [2022-08-29 15:43:30] Load MLS Excel and Mapping 
+INFO [2022-08-29 15:43:30] Check Original Nameps in MLSData 
+INFO [2022-08-29 15:43:30] Compress Column Names 
+INFO [2022-08-29 15:43:30] Convert Dates To Char 
+INFO [2022-08-29 15:43:30] Write DataFrames to SQLite 
+INFO [2022-08-29 15:43:31] Add Fields 
+INFO [2022-08-29 15:43:31] Rename Fields 
+INFO [2022-08-29 15:43:31] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 15:43:31] Do Calculations 
+INFO [2022-08-29 15:43:31] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_154330/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 15:43:31] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_154330/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 15:43:31] Done with Set-Up
+INFO [2022-08-29 15:43:31] Create Estimate and Residual
+INFO [2022-08-29 15:43:31] Load files
+INFO [2022-08-29 15:43:31] Load Interaction Table
+INFO [2022-08-29 15:43:31] Calling earth.
+INFO [2022-08-29 15:43:31] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 16:01:10] R/earth finsihed.
+INFO [2022-08-29 16:01:13] Call predict to get estimate.
+INFO [2022-08-29 16:01:13] Calc residual.
+INFO [2022-08-29 16:01:16] Order MLS Data By Residual
+INFO [2022-08-29 16:01:16] Print MARS plot from earth.
+INFO [2022-08-29 16:01:54] Create CQA Mapping
+INFO [2022-08-29 16:21:37] Load MLS Excel and Mapping 
+INFO [2022-08-29 16:21:38] Check Original Nameps in MLSData 
+INFO [2022-08-29 16:21:38] Compress Column Names 
+INFO [2022-08-29 16:21:38] Convert Dates To Char 
+INFO [2022-08-29 16:21:38] Write DataFrames to SQLite 
+INFO [2022-08-29 16:21:38] Add Fields 
+INFO [2022-08-29 16:21:38] Rename Fields 
+INFO [2022-08-29 16:21:38] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 16:21:38] Do Calculations 
+INFO [2022-08-29 16:21:38] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_162137/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 16:21:38] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_162137/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 16:21:38] Done with Set-Up
+INFO [2022-08-29 16:21:38] Create Estimate and Residual
+INFO [2022-08-29 16:21:38] Load files
+INFO [2022-08-29 16:21:39] Load Interaction Table
+INFO [2022-08-29 16:21:39] Calling earth.
+INFO [2022-08-29 16:21:39] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 16:38:40] R/earth finsihed.
+INFO [2022-08-29 16:38:43] Call predict to get estimate.
+INFO [2022-08-29 16:38:43] Calc residual.
+INFO [2022-08-29 16:38:47] Order MLS Data By Residual
+INFO [2022-08-29 16:38:47] Print MARS plot from earth.
+INFO [2022-08-29 16:39:24] Create CQA Mapping
+INFO [2022-08-29 17:56:42] Load MLS Excel and Mapping 
+INFO [2022-08-29 17:56:43] Check Original Nameps in MLSData 
+INFO [2022-08-29 17:56:43] Compress Column Names 
+INFO [2022-08-29 17:56:43] Convert Dates To Char 
+INFO [2022-08-29 17:56:43] Write DataFrames to SQLite 
+INFO [2022-08-29 17:56:43] Add Fields 
+INFO [2022-08-29 17:56:43] Rename Fields 
+INFO [2022-08-29 17:56:43] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 17:56:43] Do Calculations 
+INFO [2022-08-29 17:56:43] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_175642/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 17:56:43] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_175642/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 17:56:43] Done with Set-Up
+INFO [2022-08-29 17:56:43] Create Estimate and Residual
+INFO [2022-08-29 17:56:43] Load files
+INFO [2022-08-29 17:56:43] Load Interaction Table
+INFO [2022-08-29 17:56:43] Calling earth.
+INFO [2022-08-29 17:56:43] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 17:58:10] Load MLS Excel and Mapping 
+INFO [2022-08-29 17:58:11] Check Original Nameps in MLSData 
+INFO [2022-08-29 17:58:11] Compress Column Names 
+INFO [2022-08-29 17:58:11] Convert Dates To Char 
+INFO [2022-08-29 17:58:11] Write DataFrames to SQLite 
+INFO [2022-08-29 17:58:12] Add Fields 
+INFO [2022-08-29 17:58:12] Rename Fields 
+INFO [2022-08-29 17:58:12] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 17:58:12] Do Calculations 
+INFO [2022-08-29 17:58:12] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_175810/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 17:58:12] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_175810/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 17:58:12] Done with Set-Up
+INFO [2022-08-29 17:58:12] Create Estimate and Residual
+INFO [2022-08-29 17:58:12] Load files
+INFO [2022-08-29 17:58:12] Load Interaction Table
+INFO [2022-08-29 17:58:12] Calling earth.
+INFO [2022-08-29 17:58:12] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 18:29:04] Load MLS Excel and Mapping 
+INFO [2022-08-29 18:29:05] Check Original Nameps in MLSData 
+INFO [2022-08-29 18:29:05] Compress Column Names 
+INFO [2022-08-29 18:29:05] Convert Dates To Char 
+INFO [2022-08-29 18:29:05] Write DataFrames to SQLite 
+INFO [2022-08-29 18:29:05] Add Fields 
+INFO [2022-08-29 18:29:05] Rename Fields 
+INFO [2022-08-29 18:29:05] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 18:29:06] Do Calculations 
+INFO [2022-08-29 18:29:06] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_182904/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 18:29:06] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_182904/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 18:29:06] Done with Set-Up
+INFO [2022-08-29 18:29:06] Create Estimate and Residual
+INFO [2022-08-29 18:29:06] Load files
+INFO [2022-08-29 18:29:06] Load Interaction Table
+INFO [2022-08-29 18:29:06] Calling earth.
+INFO [2022-08-29 18:29:06] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 18:41:26] Load MLS Excel and Mapping 
+INFO [2022-08-29 18:41:26] Check Original Nameps in MLSData 
+INFO [2022-08-29 18:41:26] Compress Column Names 
+INFO [2022-08-29 18:41:26] Convert Dates To Char 
+INFO [2022-08-29 18:41:26] Write DataFrames to SQLite 
+INFO [2022-08-29 18:41:27] Add Fields 
+INFO [2022-08-29 18:41:27] Rename Fields 
+INFO [2022-08-29 18:41:27] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 18:41:27] Do Calculations 
+INFO [2022-08-29 18:41:27] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_184126/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 18:41:27] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_184126/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 18:41:27] Done with Set-Up
+INFO [2022-08-29 18:41:27] Create Estimate and Residual
+INFO [2022-08-29 18:41:27] Load files
+INFO [2022-08-29 18:41:27] Load Interaction Table
+INFO [2022-08-29 18:41:27] Calling earth.
+INFO [2022-08-29 18:41:27] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 20:38:13] Load MLS Excel and Mapping 
+INFO [2022-08-29 20:38:13] Check Original Nameps in MLSData 
+INFO [2022-08-29 20:38:13] Compress Column Names 
+INFO [2022-08-29 20:38:14] Convert Dates To Char 
+INFO [2022-08-29 20:38:14] Write DataFrames to SQLite 
+INFO [2022-08-29 20:38:14] Add Fields 
+INFO [2022-08-29 20:38:14] Rename Fields 
+INFO [2022-08-29 20:38:14] Convert DF Fields Bool To Binary 
+INFO [2022-08-29 20:38:14] Do Calculations 
+INFO [2022-08-29 20:38:14] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_203813/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 20:38:14] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220829_203813/Appraisal_2_StageI.xlsx
+INFO [2022-08-29 20:38:14] Done with Set-Up
+INFO [2022-08-29 20:38:14] Create Estimate and Residual
+INFO [2022-08-29 20:38:14] Load files
+INFO [2022-08-29 20:38:14] Load Interaction Table
+INFO [2022-08-29 20:38:14] Calling earth.
+INFO [2022-08-29 20:38:14] Calling R/earth.  This may take some time. 
+INFO [2022-08-29 20:58:03] R/earth finsihed.
+INFO [2022-08-29 20:58:06] Call predict to get estimate.
+INFO [2022-08-29 20:58:06] Calc residual.
+INFO [2022-08-29 20:58:09] Order MLS Data By Residual
+INFO [2022-08-29 20:58:09] Print MARS plot from earth.
+INFO [2022-08-29 20:58:48] Create CQA Mapping
+INFO [2022-08-29 22:49:52] Create CQA Mapping
+INFO [2022-08-29 23:04:34] Create CQA Mapping
+INFO [2022-08-29 23:05:20] Create CQA Mapping
+INFO [2022-08-30 12:10:54] Load MLS Excel and Mapping 
+INFO [2022-08-30 12:10:54] Check Original Nameps in MLSData 
+INFO [2022-08-30 12:10:55] Compress Column Names 
+INFO [2022-08-30 12:10:55] Convert Dates To Char 
+INFO [2022-08-30 12:10:55] Write DataFrames to SQLite 
+INFO [2022-08-30 12:10:55] Add Fields 
+INFO [2022-08-30 12:10:55] Rename Fields 
+INFO [2022-08-30 12:10:55] Convert DF Fields Bool To Binary 
+INFO [2022-08-30 12:10:55] Do Calculations 
+INFO [2022-08-30 12:10:55] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_121054/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 12:10:55] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_121054/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 12:10:55] Done with Set-Up
+INFO [2022-08-30 12:10:55] Create Estimate and Residual
+INFO [2022-08-30 12:10:55] Load files
+INFO [2022-08-30 12:10:55] Load Interaction Table
+INFO [2022-08-30 12:10:55] Calling earth.
+INFO [2022-08-30 12:10:55] Calling R/earth.  This may take some time. 
+INFO [2022-08-30 12:28:26] Load MLS Excel and Mapping 
+INFO [2022-08-30 12:28:28] Check Original Nameps in MLSData 
+INFO [2022-08-30 12:28:28] Compress Column Names 
+INFO [2022-08-30 12:28:28] Convert Dates To Char 
+INFO [2022-08-30 12:28:28] Write DataFrames to SQLite 
+INFO [2022-08-30 12:28:28] Add Fields 
+INFO [2022-08-30 12:28:28] Rename Fields 
+INFO [2022-08-30 12:28:28] Convert DF Fields Bool To Binary 
+INFO [2022-08-30 12:28:28] Do Calculations 
+INFO [2022-08-30 12:28:29] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_122826/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 12:28:29] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_122826/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 12:28:29] Done with Set-Up
+INFO [2022-08-30 12:28:29] Create Estimate and Residual
+INFO [2022-08-30 12:28:29] Load files
+INFO [2022-08-30 12:28:29] Load Interaction Table
+INFO [2022-08-30 12:28:29] Calling earth.
+INFO [2022-08-30 12:28:29] Calling R/earth.  This may take some time. 
+INFO [2022-08-30 12:51:22] R/earth finsihed.
+INFO [2022-08-30 12:51:25] Call predict to get estimate.
+INFO [2022-08-30 12:51:25] Calc residual.
+INFO [2022-08-30 12:51:28] Order MLS Data By Residual
+INFO [2022-08-30 12:51:28] Print MARS plot from earth.
+INFO [2022-08-30 12:52:07] Create CQA Mapping
+INFO [2022-08-30 20:08:43] Load MLS Excel and Mapping 
+INFO [2022-08-30 20:08:44] Check Original Nameps in MLSData 
+INFO [2022-08-30 20:08:44] Compress Column Names 
+INFO [2022-08-30 20:08:44] Convert Dates To Char 
+INFO [2022-08-30 20:08:44] Write DataFrames to SQLite 
+INFO [2022-08-30 20:08:44] Add Fields 
+INFO [2022-08-30 20:08:44] Rename Fields 
+INFO [2022-08-30 20:08:44] Convert DF Fields Bool To Binary 
+INFO [2022-08-30 20:08:44] Do Calculations 
+INFO [2022-08-30 20:08:44] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_200843/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 20:08:44] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_200843/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 20:08:44] Done with Set-Up
+INFO [2022-08-30 20:08:44] Create Estimate and Residual
+INFO [2022-08-30 20:08:44] Load files
+INFO [2022-08-30 20:08:44] Load Interaction Table
+INFO [2022-08-30 20:08:44] Calling earth.
+INFO [2022-08-30 20:08:44] Calling R/earth.  This may take some time. 
+INFO [2022-08-30 20:10:10] Load MLS Excel and Mapping 
+INFO [2022-08-30 20:10:11] Check Original Nameps in MLSData 
+INFO [2022-08-30 20:10:11] Compress Column Names 
+INFO [2022-08-30 20:10:11] Convert Dates To Char 
+INFO [2022-08-30 20:10:12] Write DataFrames to SQLite 
+INFO [2022-08-30 20:10:12] Add Fields 
+INFO [2022-08-30 20:10:12] Rename Fields 
+INFO [2022-08-30 20:10:12] Convert DF Fields Bool To Binary 
+INFO [2022-08-30 20:10:12] Do Calculations 
+INFO [2022-08-30 20:10:12] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_201010/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 20:10:12] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_201010/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 20:10:12] Done with Set-Up
+INFO [2022-08-30 20:10:12] Create Estimate and Residual
+INFO [2022-08-30 20:10:12] Load files
+INFO [2022-08-30 20:10:12] Load Interaction Table
+INFO [2022-08-30 20:10:12] Calling earth.
+INFO [2022-08-30 20:10:12] Calling R/earth.  This may take some time. 
+INFO [2022-08-30 22:17:26] R/earth finsihed.
+INFO [2022-08-30 22:17:29] Call predict to get estimate.
+INFO [2022-08-30 22:17:37] Calc residual.
+INFO [2022-08-30 22:27:05] Load MLS Excel and Mapping 
+INFO [2022-08-30 22:27:06] Check Original Nameps in MLSData 
+INFO [2022-08-30 22:27:06] Compress Column Names 
+INFO [2022-08-30 22:27:06] Convert Dates To Char 
+INFO [2022-08-30 22:27:06] Write DataFrames to SQLite 
+INFO [2022-08-30 22:27:06] Add Fields 
+INFO [2022-08-30 22:27:06] Rename Fields 
+INFO [2022-08-30 22:27:06] Convert DF Fields Bool To Binary 
+INFO [2022-08-30 22:27:06] Do Calculations 
+INFO [2022-08-30 22:27:07] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_222705/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 22:27:07] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220830_222705/Appraisal_2_StageI.xlsx
+INFO [2022-08-30 22:27:07] Done with Set-Up
+INFO [2022-08-30 22:27:07] Create Estimate and Residual
+INFO [2022-08-30 22:27:07] Load files
+INFO [2022-08-30 22:27:07] Load Interaction Table
+INFO [2022-08-30 22:27:07] Calling earth.
+INFO [2022-08-30 22:27:07] Calling R/earth.  This may take some time. 
+INFO [2022-08-30 23:32:29] R/earth finsihed.
+INFO [2022-08-30 23:32:32] Call predict to get estimate.
+INFO [2022-08-30 23:32:32] Calc residual.
+INFO [2022-08-30 23:32:35] Order MLS Data By Residual
+INFO [2022-08-30 23:32:35] Print MARS plot from earth.
+INFO [2022-08-30 23:36:20] Create CQA Mapping
+INFO [2022-08-31 00:06:23] Load MLS Excel and Mapping 
+INFO [2022-08-31 00:06:24] Check Original Nameps in MLSData 
+INFO [2022-08-31 00:06:24] Compress Column Names 
+INFO [2022-08-31 00:06:24] Convert Dates To Char 
+INFO [2022-08-31 00:06:24] Write DataFrames to SQLite 
+INFO [2022-08-31 00:06:25] Add Fields 
+INFO [2022-08-31 00:06:25] Rename Fields 
+INFO [2022-08-31 00:06:25] Convert DF Fields Bool To Binary 
+INFO [2022-08-31 00:06:25] Do Calculations 
+INFO [2022-08-31 00:06:25] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_000623/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 00:06:25] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_000623/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 00:06:25] Done with Set-Up
+INFO [2022-08-31 00:06:25] Create Estimate and Residual
+INFO [2022-08-31 00:06:25] Load files
+INFO [2022-08-31 00:06:25] Load Interaction Table
+INFO [2022-08-31 00:06:25] Calling earth.
+INFO [2022-08-31 00:06:25] Calling R/earth.  This may take some time. 
+INFO [2022-08-31 00:29:03] R/earth finsihed.
+INFO [2022-08-31 00:29:06] Call predict to get estimate.
+INFO [2022-08-31 00:29:06] Calc residual.
+INFO [2022-08-31 00:29:09] Order MLS Data By Residual
+INFO [2022-08-31 00:29:09] Print MARS plot from earth.
+INFO [2022-08-31 00:30:31] Create CQA Mapping
+INFO [2022-08-31 04:09:17] Load MLS Excel and Mapping 
+INFO [2022-08-31 04:09:18] Check Original Nameps in MLSData 
+INFO [2022-08-31 04:09:18] Compress Column Names 
+INFO [2022-08-31 04:09:18] Convert Dates To Char 
+INFO [2022-08-31 04:09:18] Write DataFrames to SQLite 
+INFO [2022-08-31 04:09:18] Add Fields 
+INFO [2022-08-31 04:09:19] Rename Fields 
+INFO [2022-08-31 04:09:19] Convert DF Fields Bool To Binary 
+INFO [2022-08-31 04:09:19] Do Calculations 
+INFO [2022-08-31 04:09:19] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220831_040917/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 04:09:19] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220831_040917/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 04:09:19] Done with Set-Up
+INFO [2022-08-31 04:09:19] Create Estimate and Residual
+INFO [2022-08-31 04:09:19] Load files
+INFO [2022-08-31 04:09:19] Load Interaction Table
+INFO [2022-08-31 04:09:19] Calling earth.
+INFO [2022-08-31 04:09:19] Calling R/earth.  This may take some time. 
+INFO [2022-08-31 06:05:52] R/earth finsihed.
+INFO [2022-08-31 06:05:55] Call predict to get estimate.
+INFO [2022-08-31 06:05:55] Calc residual.
+INFO [2022-08-31 06:05:58] Order MLS Data By Residual
+INFO [2022-08-31 06:05:58] Print MARS plot from earth.
+INFO [2022-08-31 06:13:17] Create CQA Mapping
+INFO [2022-08-31 09:50:39] Load MLS Excel and Mapping 
+INFO [2022-08-31 09:50:40] Check Original Nameps in MLSData 
+INFO [2022-08-31 09:50:40] Compress Column Names 
+INFO [2022-08-31 09:50:40] Convert Dates To Char 
+INFO [2022-08-31 09:50:40] Write DataFrames to SQLite 
+INFO [2022-08-31 09:50:40] Add Fields 
+INFO [2022-08-31 09:50:40] Rename Fields 
+INFO [2022-08-31 09:50:40] Convert DF Fields Bool To Binary 
+INFO [2022-08-31 09:50:41] Do Calculations 
+INFO [2022-08-31 09:50:41] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220831_095039/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 09:50:41] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220831_095039/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 09:50:41] Done with Set-Up
+INFO [2022-08-31 09:50:41] Create Estimate and Residual
+INFO [2022-08-31 09:50:41] Load files
+INFO [2022-08-31 09:50:41] Load Interaction Table
+INFO [2022-08-31 09:50:41] Calling earth.
+INFO [2022-08-31 09:50:41] Calling R/earth.  This may take some time. 
+INFO [2022-08-31 11:08:49] R/earth finsihed.
+INFO [2022-08-31 11:08:52] Call predict to get estimate.
+INFO [2022-08-31 11:08:52] Calc residual.
+INFO [2022-08-31 11:08:55] Order MLS Data By Residual
+INFO [2022-08-31 11:08:55] Print MARS plot from earth.
+INFO [2022-08-31 11:14:38] Create CQA Mapping
+INFO [2022-08-31 17:58:59] Load MLS Excel and Mapping 
+INFO [2022-08-31 17:59:00] Check Original Nameps in MLSData 
+INFO [2022-08-31 17:59:00] Compress Column Names 
+INFO [2022-08-31 17:59:00] Convert Dates To Char 
+INFO [2022-08-31 17:59:01] Write DataFrames to SQLite 
+INFO [2022-08-31 17:59:01] Add Fields 
+INFO [2022-08-31 17:59:01] Rename Fields 
+INFO [2022-08-31 17:59:01] Convert DF Fields Bool To Binary 
+INFO [2022-08-31 17:59:01] Do Calculations 
+INFO [2022-08-31 17:59:01] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_175859/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 17:59:01] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_175859/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 17:59:01] Done with Set-Up
+INFO [2022-08-31 17:59:01] Create Estimate and Residual
+INFO [2022-08-31 17:59:01] Load files
+INFO [2022-08-31 17:59:01] Load Interaction Table
+INFO [2022-08-31 17:59:01] Calling earth.
+INFO [2022-08-31 17:59:01] Calling R/earth.  This may take some time. 
+INFO [2022-08-31 18:33:56] Load MLS Excel and Mapping 
+INFO [2022-08-31 18:33:57] Check Original Nameps in MLSData 
+INFO [2022-08-31 18:33:57] Compress Column Names 
+INFO [2022-08-31 18:33:57] Convert Dates To Char 
+INFO [2022-08-31 18:33:57] Write DataFrames to SQLite 
+INFO [2022-08-31 18:33:57] Add Fields 
+INFO [2022-08-31 18:33:57] Rename Fields 
+INFO [2022-08-31 18:33:57] Convert DF Fields Bool To Binary 
+INFO [2022-08-31 18:33:57] Do Calculations 
+INFO [2022-08-31 18:33:58] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_183356/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 18:33:58] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_183356/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 18:33:58] Done with Set-Up
+INFO [2022-08-31 18:33:58] Create Estimate and Residual
+INFO [2022-08-31 18:33:58] Load files
+INFO [2022-08-31 18:33:58] Load Interaction Table
+INFO [2022-08-31 18:33:58] Calling earth.
+INFO [2022-08-31 18:33:58] Calling R/earth.  This may take some time. 
+INFO [2022-08-31 22:53:33] R/earth finsihed.
+INFO [2022-08-31 22:53:36] Call predict to get estimate.
+INFO [2022-08-31 22:57:59] R/earth finsihed.
+INFO [2022-08-31 22:58:02] Call predict to get estimate.
+INFO [2022-08-31 22:58:02] Calc residual.
+INFO [2022-08-31 22:58:05] Order MLS Data By Residual
+INFO [2022-08-31 22:58:05] Print MARS plot from earth.
+INFO [2022-08-31 22:59:30] Create CQA Mapping
+INFO [2022-08-31 23:44:18] Load MLS Excel and Mapping 
+INFO [2022-08-31 23:44:19] Check Original Nameps in MLSData 
+INFO [2022-08-31 23:44:19] Compress Column Names 
+INFO [2022-08-31 23:44:19] Convert Dates To Char 
+INFO [2022-08-31 23:44:19] Write DataFrames to SQLite 
+INFO [2022-08-31 23:44:20] Add Fields 
+INFO [2022-08-31 23:44:20] Rename Fields 
+INFO [2022-08-31 23:44:20] Convert DF Fields Bool To Binary 
+INFO [2022-08-31 23:44:20] Do Calculations 
+INFO [2022-08-31 23:44:20] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_234418/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 23:44:20] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220831_234418/Appraisal_2_StageI.xlsx
+INFO [2022-08-31 23:44:20] Done with Set-Up
+INFO [2022-08-31 23:44:20] Create Estimate and Residual
+INFO [2022-08-31 23:44:20] Load files
+INFO [2022-08-31 23:44:20] Load Interaction Table
+INFO [2022-08-31 23:44:20] Calling earth.
+INFO [2022-08-31 23:44:20] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 01:38:21] Load MLS Excel and Mapping 
+INFO [2022-09-01 01:38:22] Check Original Nameps in MLSData 
+INFO [2022-09-01 01:38:22] Compress Column Names 
+INFO [2022-09-01 01:38:22] Convert Dates To Char 
+INFO [2022-09-01 01:38:23] Write DataFrames to SQLite 
+INFO [2022-09-01 01:38:23] Add Fields 
+INFO [2022-09-01 01:38:23] Rename Fields 
+INFO [2022-09-01 01:38:23] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 01:38:23] Do Calculations 
+INFO [2022-09-01 01:38:23] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_013821/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 01:38:23] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_013821/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 01:38:23] Done with Set-Up
+INFO [2022-09-01 01:38:23] Create Estimate and Residual
+INFO [2022-09-01 01:38:23] Load files
+INFO [2022-09-01 01:38:23] Load Interaction Table
+INFO [2022-09-01 01:38:23] Calling earth.
+INFO [2022-09-01 01:38:23] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 01:42:44] Load MLS Excel and Mapping 
+INFO [2022-09-01 01:42:45] Check Original Nameps in MLSData 
+INFO [2022-09-01 01:42:45] Compress Column Names 
+INFO [2022-09-01 01:42:45] Convert Dates To Char 
+INFO [2022-09-01 01:42:45] Write DataFrames to SQLite 
+INFO [2022-09-01 01:42:45] Add Fields 
+INFO [2022-09-01 01:42:45] Rename Fields 
+INFO [2022-09-01 01:42:45] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 01:42:45] Do Calculations 
+INFO [2022-09-01 01:42:45] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_014244/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 01:42:45] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_014244/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 01:42:45] Done with Set-Up
+INFO [2022-09-01 01:42:46] Create Estimate and Residual
+INFO [2022-09-01 01:42:46] Load files
+INFO [2022-09-01 01:42:46] Load Interaction Table
+INFO [2022-09-01 01:42:46] Calling earth.
+INFO [2022-09-01 01:42:46] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 01:58:43] Load MLS Excel and Mapping 
+INFO [2022-09-01 01:58:44] Check Original Nameps in MLSData 
+INFO [2022-09-01 01:58:44] Compress Column Names 
+INFO [2022-09-01 01:58:44] Convert Dates To Char 
+INFO [2022-09-01 01:58:44] Write DataFrames to SQLite 
+INFO [2022-09-01 01:58:44] Add Fields 
+INFO [2022-09-01 01:58:44] Rename Fields 
+INFO [2022-09-01 01:58:44] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 01:58:44] Do Calculations 
+INFO [2022-09-01 01:58:44] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_015843/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 01:58:45] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_015843/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 01:58:45] Done with Set-Up
+INFO [2022-09-01 01:58:45] Create Estimate and Residual
+INFO [2022-09-01 01:58:45] Load files
+INFO [2022-09-01 01:58:45] Load Interaction Table
+INFO [2022-09-01 01:58:45] Calling earth.
+INFO [2022-09-01 01:58:45] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 02:32:44] Load MLS Excel and Mapping 
+INFO [2022-09-01 02:32:45] Check Original Nameps in MLSData 
+INFO [2022-09-01 02:32:45] Compress Column Names 
+INFO [2022-09-01 02:32:45] Convert Dates To Char 
+INFO [2022-09-01 02:32:45] Write DataFrames to SQLite 
+INFO [2022-09-01 02:32:45] Add Fields 
+INFO [2022-09-01 02:32:45] Rename Fields 
+INFO [2022-09-01 02:32:45] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 02:32:45] Do Calculations 
+INFO [2022-09-01 02:32:45] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_023244/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 02:32:45] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_023244/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 02:32:45] Done with Set-Up
+INFO [2022-09-01 02:32:45] Create Estimate and Residual
+INFO [2022-09-01 02:32:45] Load files
+INFO [2022-09-01 02:32:45] Load Interaction Table
+INFO [2022-09-01 02:32:45] Calling earth.
+INFO [2022-09-01 02:32:45] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 02:45:37] Load MLS Excel and Mapping 
+INFO [2022-09-01 02:45:38] Check Original Nameps in MLSData 
+INFO [2022-09-01 02:45:38] Compress Column Names 
+INFO [2022-09-01 02:45:38] Convert Dates To Char 
+INFO [2022-09-01 02:45:38] Write DataFrames to SQLite 
+INFO [2022-09-01 02:45:38] Add Fields 
+INFO [2022-09-01 02:45:38] Rename Fields 
+INFO [2022-09-01 02:45:38] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 02:45:39] Do Calculations 
+INFO [2022-09-01 02:45:39] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_024537/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 02:45:39] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_024537/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 02:45:39] Done with Set-Up
+INFO [2022-09-01 02:45:39] Create Estimate and Residual
+INFO [2022-09-01 02:45:39] Load files
+INFO [2022-09-01 02:45:39] Load Interaction Table
+INFO [2022-09-01 02:45:39] Calling earth.
+INFO [2022-09-01 02:45:39] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 03:04:48] Load MLS Excel and Mapping 
+INFO [2022-09-01 03:04:49] Check Original Nameps in MLSData 
+INFO [2022-09-01 03:04:49] Compress Column Names 
+INFO [2022-09-01 03:04:49] Convert Dates To Char 
+INFO [2022-09-01 03:04:49] Write DataFrames to SQLite 
+INFO [2022-09-01 03:04:49] Add Fields 
+INFO [2022-09-01 03:04:49] Rename Fields 
+INFO [2022-09-01 03:04:49] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 03:04:49] Do Calculations 
+INFO [2022-09-01 03:04:49] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_030448/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:04:49] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_030448/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:04:49] Done with Set-Up
+INFO [2022-09-01 03:04:49] Create Estimate and Residual
+INFO [2022-09-01 03:04:50] Load files
+INFO [2022-09-01 03:04:50] Load Interaction Table
+INFO [2022-09-01 03:04:50] Calling earth.
+INFO [2022-09-01 03:04:50] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 03:21:05] Calling earth.
+INFO [2022-09-01 03:21:05] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 03:39:01] Load MLS Excel and Mapping 
+INFO [2022-09-01 03:39:02] Check Original Nameps in MLSData 
+INFO [2022-09-01 03:39:02] Compress Column Names 
+INFO [2022-09-01 03:39:02] Convert Dates To Char 
+INFO [2022-09-01 03:39:02] Write DataFrames to SQLite 
+INFO [2022-09-01 03:39:02] Add Fields 
+INFO [2022-09-01 03:39:02] Rename Fields 
+INFO [2022-09-01 03:39:02] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 03:39:02] Do Calculations 
+INFO [2022-09-01 03:39:02] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_033901/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:39:02] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_033901/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:39:02] Done with Set-Up
+INFO [2022-09-01 03:39:03] Create Estimate and Residual
+INFO [2022-09-01 03:39:03] Load files
+INFO [2022-09-01 03:39:03] Load Interaction Table
+INFO [2022-09-01 03:39:03] Calling earth.
+INFO [2022-09-01 03:39:03] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 03:42:07] Load MLS Excel and Mapping 
+INFO [2022-09-01 03:42:07] Check Original Nameps in MLSData 
+INFO [2022-09-01 03:42:07] Compress Column Names 
+INFO [2022-09-01 03:42:07] Convert Dates To Char 
+INFO [2022-09-01 03:42:07] Write DataFrames to SQLite 
+INFO [2022-09-01 03:42:08] Add Fields 
+INFO [2022-09-01 03:42:08] Rename Fields 
+INFO [2022-09-01 03:42:08] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 03:42:08] Do Calculations 
+INFO [2022-09-01 03:42:08] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_034207/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:42:08] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_034207/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:42:08] Done with Set-Up
+INFO [2022-09-01 03:42:08] Create Estimate and Residual
+INFO [2022-09-01 03:42:08] Load files
+INFO [2022-09-01 03:42:08] Load Interaction Table
+INFO [2022-09-01 03:42:08] Calling earth.
+INFO [2022-09-01 03:42:08] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 03:43:32] Load MLS Excel and Mapping 
+INFO [2022-09-01 03:43:33] Check Original Nameps in MLSData 
+INFO [2022-09-01 03:43:33] Compress Column Names 
+INFO [2022-09-01 03:43:33] Convert Dates To Char 
+INFO [2022-09-01 03:43:33] Write DataFrames to SQLite 
+INFO [2022-09-01 03:43:33] Add Fields 
+INFO [2022-09-01 03:43:33] Rename Fields 
+INFO [2022-09-01 03:43:33] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 03:43:33] Do Calculations 
+INFO [2022-09-01 03:43:33] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_034332/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:43:33] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_034332/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:43:33] Done with Set-Up
+INFO [2022-09-01 03:51:49] Load MLS Excel and Mapping 
+INFO [2022-09-01 03:51:49] Check Original Nameps in MLSData 
+INFO [2022-09-01 03:51:49] Compress Column Names 
+INFO [2022-09-01 03:51:49] Convert Dates To Char 
+INFO [2022-09-01 03:51:49] Write DataFrames to SQLite 
+INFO [2022-09-01 03:51:50] Add Fields 
+INFO [2022-09-01 03:51:50] Rename Fields 
+INFO [2022-09-01 03:51:50] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 03:51:50] Do Calculations 
+INFO [2022-09-01 03:51:50] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_035149/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:51:50] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_035149/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:51:50] Done with Set-Up
+INFO [2022-09-01 03:53:05] Create Estimate and Residual
+INFO [2022-09-01 03:53:05] Load files
+INFO [2022-09-01 03:53:05] Load Interaction Table
+INFO [2022-09-01 03:53:05] Calling earth.
+INFO [2022-09-01 03:53:05] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 03:57:54] Load MLS Excel and Mapping 
+INFO [2022-09-01 03:57:55] Check Original Nameps in MLSData 
+INFO [2022-09-01 03:57:55] Compress Column Names 
+INFO [2022-09-01 03:57:55] Convert Dates To Char 
+INFO [2022-09-01 03:57:55] Write DataFrames to SQLite 
+INFO [2022-09-01 03:57:55] Add Fields 
+INFO [2022-09-01 03:57:55] Rename Fields 
+INFO [2022-09-01 03:57:55] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 03:57:55] Do Calculations 
+INFO [2022-09-01 03:57:55] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_035754/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:57:55] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_035754/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:57:55] Done with Set-Up
+INFO [2022-09-01 03:57:56] Create Estimate and Residual
+INFO [2022-09-01 03:57:56] Load files
+INFO [2022-09-01 03:57:56] Load Interaction Table
+INFO [2022-09-01 03:57:56] Calling earth.
+INFO [2022-09-01 03:57:56] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 03:59:31] Load MLS Excel and Mapping 
+INFO [2022-09-01 03:59:31] Check Original Nameps in MLSData 
+INFO [2022-09-01 03:59:31] Compress Column Names 
+INFO [2022-09-01 03:59:31] Convert Dates To Char 
+INFO [2022-09-01 03:59:31] Write DataFrames to SQLite 
+INFO [2022-09-01 03:59:32] Add Fields 
+INFO [2022-09-01 03:59:32] Rename Fields 
+INFO [2022-09-01 03:59:32] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 03:59:32] Do Calculations 
+INFO [2022-09-01 03:59:32] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_035931/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:59:32] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_035931/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 03:59:32] Done with Set-Up
+INFO [2022-09-01 03:59:32] Create Estimate and Residual
+INFO [2022-09-01 03:59:32] Load files
+INFO [2022-09-01 03:59:32] Load Interaction Table
+INFO [2022-09-01 03:59:32] Calling earth.
+INFO [2022-09-01 03:59:32] Calling R/earth.  This may take some time. 
+INFO [2022-09-01 15:42:58] Load MLS Excel and Mapping 
+INFO [2022-09-01 15:42:58] Check Original Nameps in MLSData 
+INFO [2022-09-01 15:42:58] Compress Column Names 
+INFO [2022-09-01 15:42:58] Convert Dates To Char 
+INFO [2022-09-01 15:42:58] Write DataFrames to SQLite 
+INFO [2022-09-01 15:42:59] Add Fields 
+INFO [2022-09-01 15:42:59] Rename Fields 
+INFO [2022-09-01 15:42:59] Convert DF Fields Bool To Binary 
+INFO [2022-09-01 15:42:59] Do Calculations 
+INFO [2022-09-01 15:42:59] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_154258/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 15:42:59] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220901_154258/Appraisal_2_StageI.xlsx
+INFO [2022-09-01 15:42:59] Done with Set-Up
+INFO [2022-09-02 19:59:14] Load MLS Excel and Mapping 
+INFO [2022-09-02 19:59:14] Check Original Nameps in MLSData 
+INFO [2022-09-02 19:59:14] Compress Column Names 
+INFO [2022-09-02 19:59:14] Convert Dates To Char 
+INFO [2022-09-02 19:59:14] Write DataFrames to SQLite 
+INFO [2022-09-02 19:59:15] Add Fields 
+INFO [2022-09-02 19:59:15] Rename Fields 
+INFO [2022-09-02 19:59:15] Convert DF Fields Bool To Binary 
+INFO [2022-09-02 19:59:15] Do Calculations 
+INFO [2022-09-02 19:59:15] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220902_195914/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 19:59:15] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220902_195914/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 19:59:15] Done with Set-Up
+INFO [2022-09-02 19:59:15] Create Estimate and Residual
+INFO [2022-09-02 19:59:15] Load files
+INFO [2022-09-02 19:59:15] Load Interaction Table
+INFO [2022-09-02 19:59:15] Calling earth.
+INFO [2022-09-02 19:59:15] Calling R/earth.  This may take some time. 
+INFO [2022-09-02 20:02:24] Load MLS Excel and Mapping 
+INFO [2022-09-02 20:02:25] Check Original Nameps in MLSData 
+INFO [2022-09-02 20:02:25] Compress Column Names 
+INFO [2022-09-02 20:02:25] Convert Dates To Char 
+INFO [2022-09-02 20:02:25] Write DataFrames to SQLite 
+INFO [2022-09-02 20:02:25] Add Fields 
+INFO [2022-09-02 20:02:25] Rename Fields 
+INFO [2022-09-02 20:02:25] Convert DF Fields Bool To Binary 
+INFO [2022-09-02 20:02:25] Do Calculations 
+INFO [2022-09-02 20:02:25] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220902_200224/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 20:02:25] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220902_200224/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 20:02:25] Done with Set-Up
+INFO [2022-09-02 20:02:25] Create Estimate and Residual
+INFO [2022-09-02 20:02:25] Load files
+INFO [2022-09-02 20:02:25] Load Interaction Table
+INFO [2022-09-02 20:02:25] Calling earth.
+INFO [2022-09-02 20:02:25] Calling R/earth.  This may take some time. 
+INFO [2022-09-02 20:20:57] Load MLS Excel and Mapping 
+INFO [2022-09-02 20:20:58] Check Original Nameps in MLSData 
+INFO [2022-09-02 20:20:58] Compress Column Names 
+INFO [2022-09-02 20:20:58] Convert Dates To Char 
+INFO [2022-09-02 20:20:58] Write DataFrames to SQLite 
+INFO [2022-09-02 20:20:58] Add Fields 
+INFO [2022-09-02 20:20:58] Rename Fields 
+INFO [2022-09-02 20:20:58] Convert DF Fields Bool To Binary 
+INFO [2022-09-02 20:20:58] Do Calculations 
+INFO [2022-09-02 20:20:58] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220902_202057/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 20:20:58] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220902_202057/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 20:20:58] Done with Set-Up
+INFO [2022-09-02 20:20:59] Create Estimate and Residual
+INFO [2022-09-02 20:20:59] Load files
+INFO [2022-09-02 20:20:59] Load Interaction Table
+INFO [2022-09-02 20:20:59] Calling earth.
+INFO [2022-09-02 20:20:59] Calling R/earth.  This may take some time. 
+INFO [2022-09-02 20:22:44] Load MLS Excel and Mapping 
+INFO [2022-09-02 20:22:45] Check Original Nameps in MLSData 
+INFO [2022-09-02 20:22:45] Compress Column Names 
+INFO [2022-09-02 20:22:45] Convert Dates To Char 
+INFO [2022-09-02 20:22:45] Write DataFrames to SQLite 
+INFO [2022-09-02 20:22:45] Add Fields 
+INFO [2022-09-02 20:22:45] Rename Fields 
+INFO [2022-09-02 20:22:45] Convert DF Fields Bool To Binary 
+INFO [2022-09-02 20:22:45] Do Calculations 
+INFO [2022-09-02 20:22:45] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220902_202244/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 20:22:46] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220902_202244/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 20:22:46] Done with Set-Up
+INFO [2022-09-02 20:22:46] Create Estimate and Residual
+INFO [2022-09-02 20:22:46] Load files
+INFO [2022-09-02 20:22:46] Load Interaction Table
+INFO [2022-09-02 20:22:46] Calling earth.
+INFO [2022-09-02 20:22:46] Calling R/earth.  This may take some time. 
+INFO [2022-09-02 23:27:18] Load MLS Excel and Mapping 
+INFO [2022-09-02 23:27:19] Check Original Nameps in MLSData 
+INFO [2022-09-02 23:27:19] Compress Column Names 
+INFO [2022-09-02 23:27:19] Convert Dates To Char 
+INFO [2022-09-02 23:27:19] Write DataFrames to SQLite 
+INFO [2022-09-02 23:27:19] Add Fields 
+INFO [2022-09-02 23:27:19] Rename Fields 
+INFO [2022-09-02 23:27:19] Convert DF Fields Bool To Binary 
+INFO [2022-09-02 23:27:19] Do Calculations 
+INFO [2022-09-02 23:27:19] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220902_232718/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 23:27:19] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220902_232718/Appraisal_2_StageI.xlsx
+INFO [2022-09-02 23:27:19] Done with Set-Up
+INFO [2022-09-02 23:27:19] Create Estimate and Residual
+INFO [2022-09-02 23:27:19] Load files
+INFO [2022-09-02 23:27:19] Load Interaction Table
+INFO [2022-09-02 23:27:19] Calling earth.
+INFO [2022-09-02 23:27:19] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 00:30:14] R/earth finsihed.
+INFO [2022-09-03 00:30:17] Call predict to get estimate.
+INFO [2022-09-03 00:30:17] Calc residual.
+INFO [2022-09-03 00:30:20] Order MLS Data By Residual
+INFO [2022-09-03 00:30:20] Print MARS plot from earth.
+INFO [2022-09-03 00:33:57] Load MLS Excel and Mapping 
+INFO [2022-09-03 00:33:58] Check Original Nameps in MLSData 
+INFO [2022-09-03 00:33:58] Compress Column Names 
+INFO [2022-09-03 00:33:58] Convert Dates To Char 
+INFO [2022-09-03 00:33:58] Write DataFrames to SQLite 
+INFO [2022-09-03 00:33:58] Add Fields 
+INFO [2022-09-03 00:33:58] Rename Fields 
+INFO [2022-09-03 00:33:58] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 00:33:58] Do Calculations 
+INFO [2022-09-03 00:33:59] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_003357/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:33:59] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_003357/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:33:59] Done with Set-Up
+INFO [2022-09-03 00:33:59] Create Estimate and Residual
+INFO [2022-09-03 00:33:59] Load files
+INFO [2022-09-03 00:33:59] Load Interaction Table
+INFO [2022-09-03 00:33:59] Calling earth.
+INFO [2022-09-03 00:33:59] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 00:36:16] Load MLS Excel and Mapping 
+INFO [2022-09-03 00:36:16] Check Original Nameps in MLSData 
+INFO [2022-09-03 00:36:16] Compress Column Names 
+INFO [2022-09-03 00:36:16] Convert Dates To Char 
+INFO [2022-09-03 00:36:16] Write DataFrames to SQLite 
+INFO [2022-09-03 00:36:16] Add Fields 
+INFO [2022-09-03 00:36:16] Rename Fields 
+INFO [2022-09-03 00:36:16] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 00:36:16] Do Calculations 
+INFO [2022-09-03 00:36:16] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_003616/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:36:16] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_003616/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:36:16] Done with Set-Up
+INFO [2022-09-03 00:42:06] Load MLS Excel and Mapping 
+INFO [2022-09-03 00:42:07] Check Original Nameps in MLSData 
+INFO [2022-09-03 00:42:07] Compress Column Names 
+INFO [2022-09-03 00:42:07] Convert Dates To Char 
+INFO [2022-09-03 00:42:07] Write DataFrames to SQLite 
+INFO [2022-09-03 00:42:07] Add Fields 
+INFO [2022-09-03 00:42:07] Rename Fields 
+INFO [2022-09-03 00:42:07] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 00:42:07] Do Calculations 
+INFO [2022-09-03 00:42:07] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_004206/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:42:07] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_004206/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:42:07] Done with Set-Up
+INFO [2022-09-03 00:44:41] Create Estimate and Residual
+INFO [2022-09-03 00:44:41] Load files
+INFO [2022-09-03 00:44:41] Load Interaction Table
+INFO [2022-09-03 00:45:02] Calling earth.
+INFO [2022-09-03 00:45:02] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 00:47:08] Load MLS Excel and Mapping 
+INFO [2022-09-03 00:47:08] Check Original Nameps in MLSData 
+INFO [2022-09-03 00:47:08] Compress Column Names 
+INFO [2022-09-03 00:47:08] Convert Dates To Char 
+INFO [2022-09-03 00:47:09] Write DataFrames to SQLite 
+INFO [2022-09-03 00:47:09] Add Fields 
+INFO [2022-09-03 00:47:09] Rename Fields 
+INFO [2022-09-03 00:47:09] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 00:47:09] Do Calculations 
+INFO [2022-09-03 00:47:09] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_004708/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:47:09] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_004708/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 00:47:09] Done with Set-Up
+INFO [2022-09-03 00:48:26] Create Estimate and Residual
+INFO [2022-09-03 00:48:27] Load files
+INFO [2022-09-03 00:48:27] Load Interaction Table
+INFO [2022-09-03 00:48:27] Calling earth.
+INFO [2022-09-03 00:48:27] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 01:44:46] R/earth finsihed.
+INFO [2022-09-03 01:44:49] Call predict to get estimate.
+INFO [2022-09-03 01:44:49] Calc residual.
+INFO [2022-09-03 01:44:52] Order MLS Data By Residual
+INFO [2022-09-03 01:44:52] Print MARS plot from earth.
+INFO [2022-09-03 01:45:36] Call predict to get estimate.
+INFO [2022-09-03 01:45:36] Calc residual.
+INFO [2022-09-03 01:45:47] Order MLS Data By Residual
+INFO [2022-09-03 01:46:02] Print MARS plot from earth.
+INFO [2022-09-03 01:52:33] R/earth finsihed.
+INFO [2022-09-03 01:52:36] Call predict to get estimate.
+INFO [2022-09-03 01:52:36] Calc residual.
+INFO [2022-09-03 01:52:39] Order MLS Data By Residual
+INFO [2022-09-03 01:52:39] Print MARS plot from earth.
+INFO [2022-09-03 01:53:16] R/earth finsihed.
+INFO [2022-09-03 01:53:19] Call predict to get estimate.
+INFO [2022-09-03 01:53:19] Calc residual.
+INFO [2022-09-03 01:53:22] Order MLS Data By Residual
+INFO [2022-09-03 01:53:22] Print MARS plot from earth.
+INFO [2022-09-03 02:05:57] Create CQA Mapping
+INFO [2022-09-03 12:50:49] Load MLS Excel and Mapping 
+INFO [2022-09-03 12:50:49] Check Original Nameps in MLSData 
+INFO [2022-09-03 12:50:49] Compress Column Names 
+INFO [2022-09-03 12:50:49] Convert Dates To Char 
+INFO [2022-09-03 12:50:49] Write DataFrames to SQLite 
+INFO [2022-09-03 12:50:50] Add Fields 
+INFO [2022-09-03 12:50:50] Rename Fields 
+INFO [2022-09-03 12:50:50] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 12:50:50] Do Calculations 
+INFO [2022-09-03 12:50:50] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125049/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:50:50] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125049/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:50:50] Done with Set-Up
+INFO [2022-09-03 12:50:50] Create Estimate and Residual
+INFO [2022-09-03 12:50:50] Load files
+INFO [2022-09-03 12:50:50] Load Interaction Table
+INFO [2022-09-03 12:50:50] Calling earth.
+INFO [2022-09-03 12:50:50] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 12:52:11] Load MLS Excel and Mapping 
+INFO [2022-09-03 12:52:12] Check Original Nameps in MLSData 
+INFO [2022-09-03 12:52:12] Compress Column Names 
+INFO [2022-09-03 12:52:12] Convert Dates To Char 
+INFO [2022-09-03 12:52:12] Write DataFrames to SQLite 
+INFO [2022-09-03 12:52:12] Add Fields 
+INFO [2022-09-03 12:52:12] Rename Fields 
+INFO [2022-09-03 12:52:12] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 12:52:12] Do Calculations 
+INFO [2022-09-03 12:52:12] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125211/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:52:12] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125211/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:52:12] Done with Set-Up
+INFO [2022-09-03 12:52:13] Create Estimate and Residual
+INFO [2022-09-03 12:52:13] Load files
+INFO [2022-09-03 12:52:13] Load Interaction Table
+INFO [2022-09-03 12:52:13] Calling earth.
+INFO [2022-09-03 12:52:13] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 12:53:32] Load MLS Excel and Mapping 
+INFO [2022-09-03 12:53:32] Check Original Nameps in MLSData 
+INFO [2022-09-03 12:53:33] Compress Column Names 
+INFO [2022-09-03 12:53:33] Convert Dates To Char 
+INFO [2022-09-03 12:53:33] Write DataFrames to SQLite 
+INFO [2022-09-03 12:53:33] Add Fields 
+INFO [2022-09-03 12:53:33] Rename Fields 
+INFO [2022-09-03 12:53:33] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 12:53:33] Do Calculations 
+INFO [2022-09-03 12:53:33] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125332/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:53:33] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125332/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:53:33] Done with Set-Up
+INFO [2022-09-03 12:53:33] Create Estimate and Residual
+INFO [2022-09-03 12:53:33] Load files
+INFO [2022-09-03 12:53:33] Load Interaction Table
+INFO [2022-09-03 12:53:33] Calling earth.
+INFO [2022-09-03 12:53:33] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 12:54:40] Load MLS Excel and Mapping 
+INFO [2022-09-03 12:54:41] Check Original Nameps in MLSData 
+INFO [2022-09-03 12:54:41] Compress Column Names 
+INFO [2022-09-03 12:54:41] Convert Dates To Char 
+INFO [2022-09-03 12:54:41] Write DataFrames to SQLite 
+INFO [2022-09-03 12:54:41] Add Fields 
+INFO [2022-09-03 12:54:41] Rename Fields 
+INFO [2022-09-03 12:54:41] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 12:54:41] Do Calculations 
+INFO [2022-09-03 12:54:41] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125440/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:54:41] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125440/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:54:41] Done with Set-Up
+INFO [2022-09-03 12:55:31] Load MLS Excel and Mapping 
+INFO [2022-09-03 12:55:31] Check Original Nameps in MLSData 
+INFO [2022-09-03 12:55:31] Compress Column Names 
+INFO [2022-09-03 12:55:31] Convert Dates To Char 
+INFO [2022-09-03 12:55:31] Write DataFrames to SQLite 
+INFO [2022-09-03 12:55:32] Add Fields 
+INFO [2022-09-03 12:55:32] Rename Fields 
+INFO [2022-09-03 12:55:32] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 12:55:32] Do Calculations 
+INFO [2022-09-03 12:55:32] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125531/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:55:32] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_125531/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 12:55:32] Done with Set-Up
+INFO [2022-09-03 12:55:47] Load files
+INFO [2022-09-03 12:55:47] Load Interaction Table
+INFO [2022-09-03 12:55:47] Calling earth.
+INFO [2022-09-03 12:55:47] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 13:14:03] Load MLS Excel and Mapping 
+INFO [2022-09-03 13:14:04] Check Original Nameps in MLSData 
+INFO [2022-09-03 13:14:04] Compress Column Names 
+INFO [2022-09-03 13:14:04] Convert Dates To Char 
+INFO [2022-09-03 13:14:04] Write DataFrames to SQLite 
+INFO [2022-09-03 13:14:04] Add Fields 
+INFO [2022-09-03 13:14:04] Rename Fields 
+INFO [2022-09-03 13:14:04] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 13:14:04] Do Calculations 
+INFO [2022-09-03 13:14:04] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_131403/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 13:14:05] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_131403/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 13:14:05] Done with Set-Up
+INFO [2022-09-03 13:14:27] Create Estimate and Residual
+INFO [2022-09-03 13:14:27] Load files
+INFO [2022-09-03 13:14:27] Load Interaction Table
+INFO [2022-09-03 13:14:27] Calling earth.
+INFO [2022-09-03 13:14:27] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 13:17:02] Load MLS Excel and Mapping 
+INFO [2022-09-03 13:17:03] Check Original Nameps in MLSData 
+INFO [2022-09-03 13:17:03] Compress Column Names 
+INFO [2022-09-03 13:17:03] Convert Dates To Char 
+INFO [2022-09-03 13:17:03] Write DataFrames to SQLite 
+INFO [2022-09-03 13:17:03] Add Fields 
+INFO [2022-09-03 13:17:03] Rename Fields 
+INFO [2022-09-03 13:17:03] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 13:17:03] Do Calculations 
+INFO [2022-09-03 13:17:03] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_131702/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 13:17:03] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_131702/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 13:17:03] Done with Set-Up
+INFO [2022-09-03 13:17:23] Create Estimate and Residual
+INFO [2022-09-03 13:17:23] Load files
+INFO [2022-09-03 13:17:23] Load Interaction Table
+INFO [2022-09-03 13:17:23] Calling earth.
+INFO [2022-09-03 13:17:23] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 13:40:03] Load MLS Excel and Mapping 
+INFO [2022-09-03 13:40:04] Check Original Nameps in MLSData 
+INFO [2022-09-03 13:40:04] Compress Column Names 
+INFO [2022-09-03 13:40:04] Convert Dates To Char 
+INFO [2022-09-03 13:40:04] Write DataFrames to SQLite 
+INFO [2022-09-03 13:40:04] Add Fields 
+INFO [2022-09-03 13:40:04] Rename Fields 
+INFO [2022-09-03 13:40:04] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 13:40:04] Do Calculations 
+INFO [2022-09-03 13:42:17] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_134003/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 13:42:17] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_134003/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 13:42:17] Done with Set-Up
+INFO [2022-09-03 13:42:52] Create Estimate and Residual
+INFO [2022-09-03 13:42:52] Load files
+INFO [2022-09-03 13:42:52] Load Interaction Table
+INFO [2022-09-03 13:42:52] Calling earth.
+INFO [2022-09-03 13:42:52] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 14:21:10] R/earth finsihed.
+INFO [2022-09-03 14:21:13] Call predict to get estimate.
+INFO [2022-09-03 14:21:13] Calc residual.
+INFO [2022-09-03 14:21:17] Order MLS Data By Residual
+INFO [2022-09-03 14:21:17] Print MARS plot from earth.
+INFO [2022-09-03 14:28:21] Load MLS Excel and Mapping 
+INFO [2022-09-03 14:28:22] Check Original Nameps in MLSData 
+INFO [2022-09-03 14:28:22] Compress Column Names 
+INFO [2022-09-03 14:28:22] Convert Dates To Char 
+INFO [2022-09-03 14:28:22] Write DataFrames to SQLite 
+INFO [2022-09-03 14:28:22] Add Fields 
+INFO [2022-09-03 14:28:22] Rename Fields 
+INFO [2022-09-03 14:28:22] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 14:28:22] Do Calculations 
+INFO [2022-09-03 14:28:22] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_142821/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 14:28:22] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_142821/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 14:28:22] Done with Set-Up
+INFO [2022-09-03 14:29:13] Create Estimate and Residual
+INFO [2022-09-03 14:29:13] Load files
+INFO [2022-09-03 14:29:13] Load Interaction Table
+INFO [2022-09-03 14:29:13] Calling earth.
+INFO [2022-09-03 14:29:13] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 14:33:10] R/earth finsihed.
+INFO [2022-09-03 14:33:13] Call predict to get estimate.
+INFO [2022-09-03 14:33:13] Calc residual.
+INFO [2022-09-03 14:33:17] Order MLS Data By Residual
+INFO [2022-09-03 14:33:17] Print MARS plot from earth.
+INFO [2022-09-03 15:40:06] Load MLS Excel and Mapping 
+INFO [2022-09-03 15:40:06] Check Original Nameps in MLSData 
+INFO [2022-09-03 15:40:06] Compress Column Names 
+INFO [2022-09-03 15:40:06] Convert Dates To Char 
+INFO [2022-09-03 15:40:06] Write DataFrames to SQLite 
+INFO [2022-09-03 15:40:07] Add Fields 
+INFO [2022-09-03 15:40:07] Rename Fields 
+INFO [2022-09-03 15:40:07] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 15:40:07] Do Calculations 
+INFO [2022-09-03 15:40:07] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_154006/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 15:40:07] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_154006/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 15:40:07] Done with Set-Up
+INFO [2022-09-03 15:40:19] Create Estimate and Residual
+INFO [2022-09-03 15:40:19] Load files
+INFO [2022-09-03 15:40:19] Load Interaction Table
+INFO [2022-09-03 15:40:19] Calling earth.
+INFO [2022-09-03 15:40:19] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 16:06:14] R/earth finsihed.
+INFO [2022-09-03 16:06:17] Call predict to get estimate.
+INFO [2022-09-03 16:06:17] Calc residual.
+INFO [2022-09-03 16:06:20] Order MLS Data By Residual
+INFO [2022-09-03 16:06:20] Print MARS plot from earth.
+INFO [2022-09-03 16:41:13] R/earth finsihed.
+INFO [2022-09-03 16:41:16] Call predict to get estimate.
+INFO [2022-09-03 16:41:16] Calc residual.
+INFO [2022-09-03 16:41:19] Order MLS Data By Residual
+INFO [2022-09-03 16:41:19] Print MARS plot from earth.
+INFO [2022-09-03 16:57:04] Load MLS Excel and Mapping 
+INFO [2022-09-03 16:57:04] Check Original Nameps in MLSData 
+INFO [2022-09-03 16:57:04] Compress Column Names 
+INFO [2022-09-03 16:57:04] Convert Dates To Char 
+INFO [2022-09-03 16:57:04] Write DataFrames to SQLite 
+INFO [2022-09-03 16:57:05] Add Fields 
+INFO [2022-09-03 16:57:05] Rename Fields 
+INFO [2022-09-03 16:57:05] Convert DF Fields Bool To Binary 
+INFO [2022-09-03 16:57:05] Do Calculations 
+INFO [2022-09-03 16:57:05] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_165704/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 16:57:05] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220903_165704/Appraisal_2_StageI.xlsx
+INFO [2022-09-03 16:57:05] Done with Set-Up
+INFO [2022-09-03 16:57:42] Create Estimate and Residual
+INFO [2022-09-03 16:57:42] Load files
+INFO [2022-09-03 16:57:42] Load Interaction Table
+INFO [2022-09-03 16:57:42] Calling earth.
+INFO [2022-09-03 16:57:42] Calling R/earth.  This may take some time. 
+INFO [2022-09-03 17:35:34] R/earth finsihed.
+INFO [2022-09-03 17:35:37] Call predict to get estimate.
+INFO [2022-09-03 17:35:37] Calc residual.
+INFO [2022-09-03 17:35:40] Order MLS Data By Residual
+INFO [2022-09-03 17:35:40] Print MARS plot from earth.
+INFO [2022-09-06 13:35:33] Load MLS Excel and Mapping 
+INFO [2022-09-06 13:35:34] Check Original Nameps in MLSData 
+INFO [2022-09-06 13:35:34] Compress Column Names 
+INFO [2022-09-06 13:35:34] Convert Dates To Char 
+INFO [2022-09-06 13:35:34] Write DataFrames to SQLite 
+INFO [2022-09-06 13:35:34] Add Fields 
+INFO [2022-09-06 13:35:34] Rename Fields 
+INFO [2022-09-06 13:35:34] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 13:35:34] Do Calculations 
+INFO [2022-09-06 13:35:34] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_133533/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 13:35:34] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_133533/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 13:35:34] Done with Set-Up
+INFO [2022-09-06 13:36:11] Create Estimate and Residual
+INFO [2022-09-06 13:36:11] Load files
+INFO [2022-09-06 13:36:11] Load Interaction Table
+INFO [2022-09-06 13:36:11] Calling earth.
+INFO [2022-09-06 13:36:11] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 13:52:23] R/earth finsihed.
+INFO [2022-09-06 13:52:26] Call predict to get estimate.
+INFO [2022-09-06 13:52:26] Calc residual.
+INFO [2022-09-06 14:27:01] Load MLS Excel and Mapping 
+INFO [2022-09-06 14:27:02] Check Original Nameps in MLSData 
+INFO [2022-09-06 14:27:02] Compress Column Names 
+INFO [2022-09-06 14:27:02] Convert Dates To Char 
+INFO [2022-09-06 14:27:02] Write DataFrames to SQLite 
+INFO [2022-09-06 14:27:02] Add Fields 
+INFO [2022-09-06 14:27:02] Rename Fields 
+INFO [2022-09-06 14:27:02] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 14:27:02] Do Calculations 
+INFO [2022-09-06 14:27:02] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_142701/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:27:02] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_142701/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:27:02] Done with Set-Up
+INFO [2022-09-06 14:27:44] Load MLS Excel and Mapping 
+INFO [2022-09-06 14:27:45] Check Original Nameps in MLSData 
+INFO [2022-09-06 14:27:45] Compress Column Names 
+INFO [2022-09-06 14:27:45] Convert Dates To Char 
+INFO [2022-09-06 14:27:45] Write DataFrames to SQLite 
+INFO [2022-09-06 14:27:45] Add Fields 
+INFO [2022-09-06 14:27:45] Rename Fields 
+INFO [2022-09-06 14:27:45] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 14:27:45] Do Calculations 
+INFO [2022-09-06 14:27:45] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_142744/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:27:45] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_142744/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:27:45] Done with Set-Up
+INFO [2022-09-06 14:27:57] Create Estimate and Residual
+INFO [2022-09-06 14:27:57] Load files
+INFO [2022-09-06 14:27:57] Load Interaction Table
+INFO [2022-09-06 14:27:57] Calling earth.
+INFO [2022-09-06 14:27:57] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 14:30:37] Load MLS Excel and Mapping 
+INFO [2022-09-06 14:30:38] Check Original Nameps in MLSData 
+INFO [2022-09-06 14:30:38] Compress Column Names 
+INFO [2022-09-06 14:30:38] Convert Dates To Char 
+INFO [2022-09-06 14:30:38] Write DataFrames to SQLite 
+INFO [2022-09-06 14:30:38] Add Fields 
+INFO [2022-09-06 14:30:38] Rename Fields 
+INFO [2022-09-06 14:30:38] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 14:30:38] Do Calculations 
+INFO [2022-09-06 14:30:38] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_143037/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:30:38] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_143037/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:30:38] Done with Set-Up
+INFO [2022-09-06 14:31:29] Create Estimate and Residual
+INFO [2022-09-06 14:31:29] Load files
+INFO [2022-09-06 14:31:29] Load Interaction Table
+INFO [2022-09-06 14:31:29] Calling earth.
+INFO [2022-09-06 14:31:29] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 14:38:42] Load MLS Excel and Mapping 
+INFO [2022-09-06 14:38:43] Check Original Nameps in MLSData 
+INFO [2022-09-06 14:38:43] Compress Column Names 
+INFO [2022-09-06 14:38:43] Convert Dates To Char 
+INFO [2022-09-06 14:38:43] Write DataFrames to SQLite 
+INFO [2022-09-06 14:38:43] Add Fields 
+INFO [2022-09-06 14:38:43] Rename Fields 
+INFO [2022-09-06 14:38:43] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 14:38:43] Do Calculations 
+INFO [2022-09-06 14:38:43] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_143842/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:38:43] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_143842/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:38:43] Done with Set-Up
+INFO [2022-09-06 14:42:26] Load MLS Excel and Mapping 
+INFO [2022-09-06 14:42:27] Check Original Nameps in MLSData 
+INFO [2022-09-06 14:42:27] Compress Column Names 
+INFO [2022-09-06 14:42:27] Convert Dates To Char 
+INFO [2022-09-06 14:42:27] Write DataFrames to SQLite 
+INFO [2022-09-06 14:42:27] Add Fields 
+INFO [2022-09-06 14:42:27] Rename Fields 
+INFO [2022-09-06 14:42:27] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 14:42:27] Do Calculations 
+INFO [2022-09-06 14:42:27] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_144226/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:42:27] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_144226/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:42:27] Done with Set-Up
+INFO [2022-09-06 14:42:46] Create Estimate and Residual
+INFO [2022-09-06 14:42:46] Load files
+INFO [2022-09-06 14:42:46] Load Interaction Table
+INFO [2022-09-06 14:42:46] Calling earth.
+INFO [2022-09-06 14:42:46] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 14:46:15] Create Estimate and Residual
+INFO [2022-09-06 14:46:15] Load files
+INFO [2022-09-06 14:46:15] Load Interaction Table
+INFO [2022-09-06 14:46:15] Calling earth.
+INFO [2022-09-06 14:46:15] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 14:49:02] Load MLS Excel and Mapping 
+INFO [2022-09-06 14:49:03] Check Original Nameps in MLSData 
+INFO [2022-09-06 14:49:03] Compress Column Names 
+INFO [2022-09-06 14:49:03] Convert Dates To Char 
+INFO [2022-09-06 14:49:03] Write DataFrames to SQLite 
+INFO [2022-09-06 14:49:03] Add Fields 
+INFO [2022-09-06 14:49:03] Rename Fields 
+INFO [2022-09-06 14:49:03] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 14:49:03] Do Calculations 
+INFO [2022-09-06 14:49:04] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_144902/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:49:04] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_144902/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 14:49:04] Done with Set-Up
+INFO [2022-09-06 14:49:18] Create Estimate and Residual
+INFO [2022-09-06 14:49:18] Load files
+INFO [2022-09-06 14:49:18] Load Interaction Table
+INFO [2022-09-06 14:49:18] Calling earth.
+INFO [2022-09-06 14:49:18] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 15:02:17] Load MLS Excel and Mapping 
+INFO [2022-09-06 15:02:17] Check Original Nameps in MLSData 
+INFO [2022-09-06 15:02:17] Compress Column Names 
+INFO [2022-09-06 15:02:17] Convert Dates To Char 
+INFO [2022-09-06 15:02:17] Write DataFrames to SQLite 
+INFO [2022-09-06 15:02:18] Add Fields 
+INFO [2022-09-06 15:02:18] Rename Fields 
+INFO [2022-09-06 15:02:18] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 15:02:18] Do Calculations 
+INFO [2022-09-06 15:02:18] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_150217/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 15:02:18] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_150217/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 15:02:18] Done with Set-Up
+INFO [2022-09-06 15:02:53] Create Estimate and Residual
+INFO [2022-09-06 15:02:53] Load files
+INFO [2022-09-06 15:02:53] Load Interaction Table
+INFO [2022-09-06 15:02:53] Calling earth.
+INFO [2022-09-06 15:02:53] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 15:48:08] Load MLS Excel and Mapping 
+INFO [2022-09-06 15:48:09] Check Original Nameps in MLSData 
+INFO [2022-09-06 15:48:09] Compress Column Names 
+INFO [2022-09-06 15:48:09] Convert Dates To Char 
+INFO [2022-09-06 15:48:09] Write DataFrames to SQLite 
+INFO [2022-09-06 15:48:09] Add Fields 
+INFO [2022-09-06 15:48:09] Rename Fields 
+INFO [2022-09-06 15:48:09] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 15:48:09] Do Calculations 
+INFO [2022-09-06 15:48:09] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_154808/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 15:48:09] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_154808/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 15:48:09] Done with Set-Up
+INFO [2022-09-06 15:48:30] Create Estimate and Residual
+INFO [2022-09-06 15:48:30] Load files
+INFO [2022-09-06 15:48:30] Load Interaction Table
+INFO [2022-09-06 15:48:31] Calling earth.
+INFO [2022-09-06 15:48:31] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 16:40:44] Load MLS Excel and Mapping 
+INFO [2022-09-06 16:40:45] Check Original Nameps in MLSData 
+INFO [2022-09-06 16:40:45] Compress Column Names 
+INFO [2022-09-06 16:40:45] Convert Dates To Char 
+INFO [2022-09-06 16:40:45] Write DataFrames to SQLite 
+INFO [2022-09-06 16:40:45] Add Fields 
+INFO [2022-09-06 16:40:45] Rename Fields 
+INFO [2022-09-06 16:40:45] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 16:40:45] Do Calculations 
+INFO [2022-09-06 16:40:45] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_164044/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:40:45] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_164044/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:40:45] Done with Set-Up
+INFO [2022-09-06 16:41:01] Create Estimate and Residual
+INFO [2022-09-06 16:41:01] Load files
+INFO [2022-09-06 16:41:01] Load Interaction Table
+INFO [2022-09-06 16:41:01] Calling earth.
+INFO [2022-09-06 16:41:01] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 16:48:47] Load MLS Excel and Mapping 
+INFO [2022-09-06 16:48:47] Check Original Nameps in MLSData 
+INFO [2022-09-06 16:48:47] Compress Column Names 
+INFO [2022-09-06 16:48:48] Convert Dates To Char 
+INFO [2022-09-06 16:48:48] Write DataFrames to SQLite 
+INFO [2022-09-06 16:48:48] Add Fields 
+INFO [2022-09-06 16:48:48] Rename Fields 
+INFO [2022-09-06 16:48:48] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 16:48:48] Do Calculations 
+INFO [2022-09-06 16:48:48] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_164847/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:48:48] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_164847/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:48:48] Done with Set-Up
+INFO [2022-09-06 16:49:13] Load MLS Excel and Mapping 
+INFO [2022-09-06 16:49:14] Check Original Nameps in MLSData 
+INFO [2022-09-06 16:49:14] Compress Column Names 
+INFO [2022-09-06 16:49:14] Convert Dates To Char 
+INFO [2022-09-06 16:49:14] Write DataFrames to SQLite 
+INFO [2022-09-06 16:49:14] Add Fields 
+INFO [2022-09-06 16:49:14] Rename Fields 
+INFO [2022-09-06 16:49:15] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 16:49:15] Do Calculations 
+INFO [2022-09-06 16:49:15] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_164913/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:49:15] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_164913/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:49:15] Done with Set-Up
+INFO [2022-09-06 16:49:25] Create Estimate and Residual
+INFO [2022-09-06 16:49:25] Load files
+INFO [2022-09-06 16:49:25] Load Interaction Table
+INFO [2022-09-06 16:49:25] Calling earth.
+INFO [2022-09-06 16:49:25] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 16:58:41] Load MLS Excel and Mapping 
+INFO [2022-09-06 16:58:42] Check Original Nameps in MLSData 
+INFO [2022-09-06 16:58:42] Compress Column Names 
+INFO [2022-09-06 16:58:42] Convert Dates To Char 
+INFO [2022-09-06 16:58:42] Write DataFrames to SQLite 
+INFO [2022-09-06 16:58:43] Add Fields 
+INFO [2022-09-06 16:58:43] Rename Fields 
+INFO [2022-09-06 16:58:43] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 16:58:43] Do Calculations 
+INFO [2022-09-06 16:58:43] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_165841/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:58:43] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_165841/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 16:58:43] Done with Set-Up
+INFO [2022-09-06 16:59:07] Create Estimate and Residual
+INFO [2022-09-06 16:59:07] Load files
+INFO [2022-09-06 16:59:07] Load Interaction Table
+INFO [2022-09-06 16:59:07] Calling earth.
+INFO [2022-09-06 16:59:07] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 17:09:18] R/earth finsihed.
+INFO [2022-09-06 17:09:21] Call predict to get estimate.
+INFO [2022-09-06 17:16:50] R/earth finsihed.
+INFO [2022-09-06 17:16:53] Call predict to get estimate.
+INFO [2022-09-06 17:16:53] Calc residual.
+INFO [2022-09-06 17:16:56] Order MLS Data By Residual
+INFO [2022-09-06 17:16:56] Print MARS plot from earth.
+INFO [2022-09-06 17:21:00] Create CQA Mapping
+INFO [2022-09-06 17:48:07] Load MLS Excel and Mapping 
+INFO [2022-09-06 17:48:07] Check Original Nameps in MLSData 
+INFO [2022-09-06 17:48:07] Compress Column Names 
+INFO [2022-09-06 17:48:07] Convert Dates To Char 
+INFO [2022-09-06 17:48:07] Write DataFrames to SQLite 
+INFO [2022-09-06 17:48:08] Add Fields 
+INFO [2022-09-06 17:48:08] Rename Fields 
+INFO [2022-09-06 17:48:08] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 17:48:08] Do Calculations 
+INFO [2022-09-06 17:48:08] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_174807/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 17:48:08] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_174807/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 17:48:08] Done with Set-Up
+INFO [2022-09-06 17:48:08] Create Estimate and Residual
+INFO [2022-09-06 17:48:08] Load files
+INFO [2022-09-06 17:48:08] Load Interaction Table
+INFO [2022-09-06 17:48:08] Calling earth.
+INFO [2022-09-06 17:48:08] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 17:57:58] R/earth finsihed.
+INFO [2022-09-06 17:58:01] Call predict to get estimate.
+INFO [2022-09-06 17:58:01] Calc residual.
+INFO [2022-09-06 17:58:04] Order MLS Data By Residual
+INFO [2022-09-06 17:58:04] Print MARS plot from earth.
+INFO [2022-09-06 18:09:35] R/earth finsihed.
+INFO [2022-09-06 18:09:38] Call predict to get estimate.
+INFO [2022-09-06 18:09:38] Calc residual.
+INFO [2022-09-06 18:09:41] Order MLS Data By Residual
+INFO [2022-09-06 18:09:41] Print MARS plot from earth.
+INFO [2022-09-06 18:09:45] R/earth finsihed.
+INFO [2022-09-06 18:09:49] Call predict to get estimate.
+INFO [2022-09-06 18:09:49] Calc residual.
+INFO [2022-09-06 18:09:52] Order MLS Data By Residual
+INFO [2022-09-06 18:09:52] Print MARS plot from earth.
+INFO [2022-09-06 18:29:10] Load MLS Excel and Mapping 
+INFO [2022-09-06 18:29:11] Check Original Nameps in MLSData 
+INFO [2022-09-06 18:29:11] Compress Column Names 
+INFO [2022-09-06 18:29:11] Convert Dates To Char 
+INFO [2022-09-06 18:29:11] Write DataFrames to SQLite 
+INFO [2022-09-06 18:29:11] Add Fields 
+INFO [2022-09-06 18:29:11] Rename Fields 
+INFO [2022-09-06 18:29:11] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 18:29:11] Do Calculations 
+INFO [2022-09-06 18:29:11] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220906_182910/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:29:11] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220906_182910/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:29:11] Done with Set-Up
+INFO [2022-09-06 18:29:12] Create Estimate and Residual
+INFO [2022-09-06 18:29:12] Load files
+INFO [2022-09-06 18:29:12] Load Interaction Table
+INFO [2022-09-06 18:29:12] Calling earth.
+INFO [2022-09-06 18:29:12] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 18:48:54] Load MLS Excel and Mapping 
+INFO [2022-09-06 18:48:55] Check Original Nameps in MLSData 
+INFO [2022-09-06 18:48:55] Compress Column Names 
+INFO [2022-09-06 18:48:55] Convert Dates To Char 
+INFO [2022-09-06 18:48:55] Write DataFrames to SQLite 
+INFO [2022-09-06 18:48:55] Add Fields 
+INFO [2022-09-06 18:48:55] Rename Fields 
+INFO [2022-09-06 18:48:55] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 18:48:55] Do Calculations 
+INFO [2022-09-06 18:48:55] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220906_184854/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:48:55] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220906_184854/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:48:55] Done with Set-Up
+INFO [2022-09-06 18:48:55] Create Estimate and Residual
+INFO [2022-09-06 18:48:55] Load files
+INFO [2022-09-06 18:48:55] Load Interaction Table
+INFO [2022-09-06 18:48:56] Calling earth.
+INFO [2022-09-06 18:48:56] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 18:50:40] R/earth finsihed.
+INFO [2022-09-06 18:50:43] Call predict to get estimate.
+INFO [2022-09-06 18:50:43] Calc residual.
+INFO [2022-09-06 18:50:46] Order MLS Data By Residual
+INFO [2022-09-06 18:50:46] Print MARS plot from earth.
+INFO [2022-09-06 18:53:21] Create CQA Mapping
+INFO [2022-09-06 18:54:31] Load MLS Excel and Mapping 
+INFO [2022-09-06 18:54:31] Check Original Nameps in MLSData 
+INFO [2022-09-06 18:54:31] Compress Column Names 
+INFO [2022-09-06 18:54:31] Convert Dates To Char 
+INFO [2022-09-06 18:54:31] Write DataFrames to SQLite 
+INFO [2022-09-06 18:54:32] Add Fields 
+INFO [2022-09-06 18:54:32] Rename Fields 
+INFO [2022-09-06 18:54:32] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 18:54:32] Do Calculations 
+INFO [2022-09-06 18:54:32] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_185431/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:54:32] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_185431/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:54:32] Done with Set-Up
+INFO [2022-09-06 18:54:32] Create Estimate and Residual
+INFO [2022-09-06 18:54:32] Load files
+INFO [2022-09-06 18:54:32] Load Interaction Table
+INFO [2022-09-06 18:54:32] Calling earth.
+INFO [2022-09-06 18:54:32] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 18:54:59] R/earth finsihed.
+INFO [2022-09-06 18:55:02] Call predict to get estimate.
+INFO [2022-09-06 18:55:02] Calc residual.
+INFO [2022-09-06 18:55:05] Order MLS Data By Residual
+INFO [2022-09-06 18:55:05] Print MARS plot from earth.
+INFO [2022-09-06 18:55:39] Create CQA Mapping
+INFO [2022-09-06 18:57:22] Load MLS Excel and Mapping 
+INFO [2022-09-06 18:57:23] Check Original Nameps in MLSData 
+INFO [2022-09-06 18:57:23] Compress Column Names 
+INFO [2022-09-06 18:57:23] Convert Dates To Char 
+INFO [2022-09-06 18:57:23] Write DataFrames to SQLite 
+INFO [2022-09-06 18:57:23] Add Fields 
+INFO [2022-09-06 18:57:23] Rename Fields 
+INFO [2022-09-06 18:57:24] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 18:57:24] Do Calculations 
+INFO [2022-09-06 18:57:24] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_185722/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:57:24] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_185722/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 18:57:24] Done with Set-Up
+INFO [2022-09-06 18:57:24] Create Estimate and Residual
+INFO [2022-09-06 18:57:24] Load files
+INFO [2022-09-06 18:57:24] Load Interaction Table
+INFO [2022-09-06 18:57:24] Calling earth.
+INFO [2022-09-06 18:57:24] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 18:57:50] R/earth finsihed.
+INFO [2022-09-06 18:57:53] Call predict to get estimate.
+INFO [2022-09-06 18:57:53] Calc residual.
+INFO [2022-09-06 18:57:56] Order MLS Data By Residual
+INFO [2022-09-06 18:57:56] Print MARS plot from earth.
+INFO [2022-09-06 18:58:30] Create CQA Mapping
+INFO [2022-09-06 19:02:32] Load MLS Excel and Mapping 
+INFO [2022-09-06 19:02:33] Check Original Nameps in MLSData 
+INFO [2022-09-06 19:02:33] Compress Column Names 
+INFO [2022-09-06 19:02:33] Convert Dates To Char 
+INFO [2022-09-06 19:02:33] Write DataFrames to SQLite 
+INFO [2022-09-06 19:02:33] Add Fields 
+INFO [2022-09-06 19:02:33] Rename Fields 
+INFO [2022-09-06 19:02:33] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 19:02:33] Do Calculations 
+INFO [2022-09-06 19:02:34] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_190232/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 19:02:34] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D1_20220906_190232/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 19:02:34] Done with Set-Up
+INFO [2022-09-06 19:02:34] Create Estimate and Residual
+INFO [2022-09-06 19:02:34] Load files
+INFO [2022-09-06 19:02:34] Load Interaction Table
+INFO [2022-09-06 19:02:34] Calling earth.
+INFO [2022-09-06 19:02:34] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 19:03:49] R/earth finsihed.
+INFO [2022-09-06 19:03:52] Call predict to get estimate.
+INFO [2022-09-06 19:03:52] Calc residual.
+INFO [2022-09-06 19:03:56] Order MLS Data By Residual
+INFO [2022-09-06 19:03:56] Print MARS plot from earth.
+INFO [2022-09-06 19:05:21] Create CQA Mapping
+INFO [2022-09-06 19:10:20] Load MLS Excel and Mapping 
+INFO [2022-09-06 19:10:21] Check Original Nameps in MLSData 
+INFO [2022-09-06 19:10:21] Compress Column Names 
+INFO [2022-09-06 19:10:21] Convert Dates To Char 
+INFO [2022-09-06 19:10:21] Write DataFrames to SQLite 
+INFO [2022-09-06 19:10:21] Add Fields 
+INFO [2022-09-06 19:10:21] Rename Fields 
+INFO [2022-09-06 19:10:21] Convert DF Fields Bool To Binary 
+INFO [2022-09-06 19:10:21] Do Calculations 
+INFO [2022-09-06 19:10:21] Write data to Excel file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220906_191020/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 19:10:22] Generated file:  C:/Order_1/Market/M01/Earth/Mls/CQA5D2_20220906_191020/Appraisal_2_StageI.xlsx
+INFO [2022-09-06 19:10:22] Done with Set-Up
+INFO [2022-09-06 19:10:22] Create Estimate and Residual
+INFO [2022-09-06 19:10:22] Load files
+INFO [2022-09-06 19:10:22] Load Interaction Table
+INFO [2022-09-06 19:10:22] Calling earth.
+INFO [2022-09-06 19:10:22] Calling R/earth.  This may take some time. 
+INFO [2022-09-06 19:15:19] R/earth finsihed.
+INFO [2022-09-06 19:15:22] Call predict to get estimate.
+INFO [2022-09-06 19:15:22] Calc residual.
+INFO [2022-09-06 19:15:25] Order MLS Data By Residual
+INFO [2022-09-06 19:15:25] Print MARS plot from earth.
+INFO [2022-09-06 19:19:26] Create CQA Mapping
+INFO [2022-09-07 15:49:58] Load files
+INFO [2022-09-07 15:49:58] Load Interaction Table
+INFO [2022-09-07 15:50:08] Calling earth.
+INFO [2022-09-07 15:50:08] Calling R/earth.  This may take some time. 
+INFO [2022-09-07 15:52:21] R/earth finsihed.
+INFO [2022-09-07 15:52:24] Call predict to get estimate.
+INFO [2022-09-07 15:52:24] Calc residual.
+INFO [2022-09-07 15:52:27] Order MLS Data By Residual
+INFO [2022-09-07 15:52:27] Print MARS plot from earth.
+INFO [2022-09-07 15:53:06] Calculate CQA
+INFO [2022-09-07 15:54:08] Create CQA Mapping
+INFO [2022-09-07 15:55:37] Load files
+INFO [2022-09-07 15:55:37] Load Interaction Table
+INFO [2022-09-07 15:55:37] Calling earth.
+INFO [2022-09-07 15:55:37] Calling R/earth.  This may take some time. 
+INFO [2022-09-07 16:56:17] R/earth finsihed.
+INFO [2022-09-07 16:56:21] Call predict to get estimate.
+INFO [2022-09-07 16:56:21] Calc residual.
+INFO [2022-09-07 16:56:24] Order MLS Data By Residual
+INFO [2022-09-07 16:56:24] Print MARS plot from earth.
+INFO [2022-09-07 16:56:25] Calculate CQA
+INFO [2022-09-07 17:00:24] Create CQA Mapping
+INFO [2022-09-07 20:58:42] Load files
+INFO [2022-09-07 20:58:42] Load Interaction Table
+INFO [2022-09-07 20:58:42] Calling earth.
+INFO [2022-09-07 20:58:42] Calling R/earth.  This may take some time. 
+INFO [2022-09-07 20:59:43] R/earth finsihed.
+INFO [2022-09-07 20:59:46] Call predict to get estimate.
+INFO [2022-09-07 20:59:46] Calc residual.
+INFO [2022-09-07 20:59:49] Order MLS Data By Residual
+INFO [2022-09-07 20:59:49] Print MARS plot from earth.
+INFO [2022-09-07 20:59:50] Calculate CQA
+INFO [2022-09-07 21:00:50] Create CQA Mapping
+INFO [2022-09-07 21:00:52] Load files
+INFO [2022-09-07 21:00:52] Load Interaction Table
+INFO [2022-09-07 21:00:52] Calling earth.
+INFO [2022-09-07 21:00:52] Calling R/earth.  This may take some time. 
+INFO [2022-09-07 21:05:16] R/earth finsihed.
+INFO [2022-09-07 21:05:19] Call predict to get estimate.
+INFO [2022-09-07 21:05:19] Calc residual.
+INFO [2022-09-07 21:05:22] Order MLS Data By Residual
+INFO [2022-09-07 21:05:22] Print MARS plot from earth.
+INFO [2022-09-07 21:05:23] Calculate CQA
+INFO [2022-09-07 21:09:24] Create CQA Mapping
+INFO [2022-09-08 13:45:13] Load files
+INFO [2022-09-08 13:45:13] Load Interaction Table
+INFO [2022-09-08 13:45:13] Calling earth.
+INFO [2022-09-08 13:45:13] Calling R/earth.  This may take some time. 
+INFO [2022-09-08 13:46:00] Load files
+INFO [2022-09-08 13:46:00] Load Interaction Table
+INFO [2022-09-08 13:46:00] Calling earth.
+INFO [2022-09-08 13:46:00] Calling R/earth.  This may take some time. 
+INFO [2022-09-08 13:50:40] Load files
+INFO [2022-09-08 13:50:40] Load Interaction Table
+INFO [2022-09-08 13:50:40] Calling earth.
+INFO [2022-09-08 13:50:40] Calling R/earth.  This may take some time. 
+INFO [2022-09-08 13:57:32] Load files
+INFO [2022-09-08 13:57:32] Load Interaction Table
+INFO [2022-09-08 13:57:32] Calling earth.
+INFO [2022-09-08 13:57:32] Calling R/earth.  This may take some time. 
+INFO [2022-09-08 13:58:39] R/earth finsihed.
+INFO [2022-09-08 13:58:42] Call predict to get estimate.
+INFO [2022-09-08 13:58:42] Calc residual.
+INFO [2022-09-08 13:58:45] Order MLS Data By Residual
+INFO [2022-09-08 13:58:45] Print MARS plot from earth.
+INFO [2022-09-08 13:58:46] Calculate CQA
+INFO [2022-09-08 13:59:48] Create CQA Mapping
+INFO [2022-09-08 13:59:49] Load files
+INFO [2022-09-08 13:59:49] Load Interaction Table
+INFO [2022-09-08 13:59:49] Calling earth.
+INFO [2022-09-08 13:59:49] Calling R/earth.  This may take some time. 
+INFO [2022-09-08 14:04:33] R/earth finsihed.
+INFO [2022-09-08 14:04:36] Call predict to get estimate.
+INFO [2022-09-08 14:04:36] Calc residual.
+INFO [2022-09-08 14:04:39] Order MLS Data By Residual
+INFO [2022-09-08 14:04:39] Print MARS plot from earth.
+INFO [2022-09-08 14:04:40] Calculate CQA
+INFO [2022-09-08 14:08:37] Create CQA Mapping
+INFO [2022-09-13 15:32:46] Load files
+INFO [2022-09-13 15:32:46] Load Interaction Table
+INFO [2022-09-13 15:32:46] Calling earth.
+INFO [2022-09-13 15:32:46] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 15:34:12] R/earth finsihed.
+INFO [2022-09-13 15:34:15] Call predict to get estimate.
+INFO [2022-09-13 15:34:15] Calc residual.
+INFO [2022-09-13 15:34:18] Order MLS Data By Residual
+INFO [2022-09-13 15:34:18] Print MARS plot from earth.
+INFO [2022-09-13 15:34:20] Calculate CQA
+INFO [2022-09-13 15:35:43] Create CQA Mapping
+INFO [2022-09-13 15:35:45] Load files
+INFO [2022-09-13 15:35:45] Load Interaction Table
+INFO [2022-09-13 15:35:45] Calling earth.
+INFO [2022-09-13 15:35:45] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 15:41:10] R/earth finsihed.
+INFO [2022-09-13 15:41:13] Call predict to get estimate.
+INFO [2022-09-13 15:41:13] Calc residual.
+INFO [2022-09-13 15:41:16] Order MLS Data By Residual
+INFO [2022-09-13 15:41:16] Print MARS plot from earth.
+INFO [2022-09-13 15:41:18] Calculate CQA
+INFO [2022-09-13 15:45:25] Create CQA Mapping
+INFO [2022-09-13 17:06:25] Load files
+INFO [2022-09-13 17:06:25] Load Interaction Table
+INFO [2022-09-13 17:06:25] Calling earth.
+INFO [2022-09-13 17:06:25] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 17:11:42] R/earth finsihed.
+INFO [2022-09-13 17:11:45] Call predict to get estimate.
+INFO [2022-09-13 17:11:45] Calc residual.
+INFO [2022-09-13 17:11:48] Order MLS Data By Residual
+INFO [2022-09-13 17:11:48] Print MARS plot from earth.
+INFO [2022-09-13 17:11:50] Calculate CQA
+INFO [2022-09-13 17:15:56] Create CQA Mapping
+INFO [2022-09-13 17:29:23] Load files
+INFO [2022-09-13 17:29:23] Load Interaction Table
+INFO [2022-09-13 17:29:23] Calling earth.
+INFO [2022-09-13 17:29:23] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 19:37:20] Load files
+INFO [2022-09-13 19:37:20] Load Interaction Table
+INFO [2022-09-13 19:37:20] Calling earth.
+INFO [2022-09-13 19:37:20] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 19:38:32] Load files
+INFO [2022-09-13 19:38:32] Load Interaction Table
+INFO [2022-09-13 19:38:32] Calling earth.
+INFO [2022-09-13 19:38:32] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 19:39:48] R/earth finsihed.
+INFO [2022-09-13 19:39:51] Call predict to get estimate.
+INFO [2022-09-13 19:39:51] Calc residual.
+INFO [2022-09-13 19:39:54] Order MLS Data By Residual
+INFO [2022-09-13 19:39:54] Print MARS plot from earth.
+INFO [2022-09-13 19:39:55] Calculate CQA
+INFO [2022-09-13 19:41:13] Create CQA Mapping
+INFO [2022-09-13 19:41:14] Load files
+INFO [2022-09-13 19:41:14] Load Interaction Table
+INFO [2022-09-13 19:41:14] Calling earth.
+INFO [2022-09-13 19:41:14] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 19:44:46] R/earth finsihed.
+INFO [2022-09-13 19:44:49] Call predict to get estimate.
+INFO [2022-09-13 19:44:49] Calc residual.
+INFO [2022-09-13 19:44:52] Order MLS Data By Residual
+INFO [2022-09-13 19:44:52] Print MARS plot from earth.
+INFO [2022-09-13 19:44:54] Calculate CQA
+INFO [2022-09-13 19:46:48] Create CQA Mapping
+INFO [2022-09-13 20:09:13] Load files
+INFO [2022-09-13 20:09:13] Load Interaction Table
+INFO [2022-09-13 20:09:13] Calling earth.
+INFO [2022-09-13 20:09:13] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 20:11:59] R/earth finsihed.
+INFO [2022-09-13 20:12:02] Call predict to get estimate.
+INFO [2022-09-13 20:12:02] Calc residual.
+INFO [2022-09-13 20:12:05] Order MLS Data By Residual
+INFO [2022-09-13 20:12:05] Print MARS plot from earth.
+INFO [2022-09-13 20:12:07] Calculate CQA
+INFO [2022-09-13 20:13:33] Create CQA Mapping
+INFO [2022-09-13 20:18:40] Load files
+INFO [2022-09-13 20:18:40] Load Interaction Table
+INFO [2022-09-13 20:18:40] Calling earth.
+INFO [2022-09-13 20:18:40] Calling R/earth.  This may take some time. 
+INFO [2022-09-13 20:21:07] R/earth finsihed.
+INFO [2022-09-13 20:21:10] Call predict to get estimate.
+INFO [2022-09-13 20:21:10] Calc residual.
+INFO [2022-09-13 20:21:13] Order MLS Data By Residual
+INFO [2022-09-13 20:21:13] Print MARS plot from earth.
+INFO [2022-09-13 20:21:14] Calculate CQA
+INFO [2022-09-13 20:22:32] Create CQA Mapping
+INFO [2022-09-30 15:52:03] Load files
+INFO [2022-09-30 15:52:03] Load Interaction Table
+INFO [2022-09-30 15:52:03] Calling earth.
+INFO [2022-09-30 15:52:03] Calling R/earth.  This may take some time. 
+INFO [2022-09-30 15:52:49] R/earth finsihed.
+INFO [2022-09-30 15:52:52] Call predict to get estimate.
+INFO [2022-09-30 15:52:52] Calc residual.
+INFO [2022-09-30 15:52:55] Order MLS Data By Residual
+INFO [2022-09-30 15:52:55] Print MARS plot from earth.
+INFO [2022-09-30 15:52:57] Calculate CQA
+INFO [2022-09-30 15:53:49] Create CQA Mapping
+INFO [2022-09-30 16:00:46] Load files
+INFO [2022-09-30 16:00:46] Load Interaction Table
+INFO [2022-09-30 16:00:46] Calling earth.
+INFO [2022-09-30 16:00:46] Calling R/earth.  This may take some time. 
+INFO [2022-09-30 16:01:33] R/earth finsihed.
+INFO [2022-09-30 16:01:36] Call predict to get estimate.
+INFO [2022-09-30 16:01:36] Calc residual.
+INFO [2022-09-30 16:01:39] Order MLS Data By Residual
+INFO [2022-09-30 16:01:39] Print MARS plot from earth.
+INFO [2022-09-30 16:01:41] Calculate CQA
+INFO [2022-09-30 16:02:34] Create CQA Mapping
+INFO [2022-09-30 17:08:00] Load files
+INFO [2022-09-30 17:08:00] Load Interaction Table
+INFO [2022-09-30 17:08:00] Calling earth.
+INFO [2022-09-30 17:08:00] Calling R/earth.  This may take some time. 
+INFO [2022-09-30 17:08:44] R/earth finsihed.
+INFO [2022-09-30 17:08:47] Call predict to get estimate.
+INFO [2022-09-30 17:08:47] Calc residual.
+INFO [2022-09-30 17:08:50] Order MLS Data By Residual
+INFO [2022-09-30 17:08:50] Print MARS plot from earth.
+INFO [2022-09-30 17:08:52] Calculate CQA
+INFO [2022-09-30 17:09:41] Create CQA Mapping
+INFO [2022-09-30 18:31:38] Load files
+INFO [2022-09-30 18:31:38] Load Interaction Table
+INFO [2022-09-30 18:31:39] Calling earth.
+INFO [2022-09-30 18:31:39] Calling R/earth.  This may take some time. 
+INFO [2022-09-30 18:32:23] R/earth finsihed.
+INFO [2022-09-30 18:32:26] Call predict to get estimate.
+INFO [2022-09-30 18:32:26] Calc residual.
+INFO [2022-09-30 18:32:29] Order MLS Data By Residual
+INFO [2022-09-30 18:32:29] Print MARS plot from earth.
+INFO [2022-09-30 18:32:30] Calculate CQA
+INFO [2022-09-30 18:33:20] Create CQA Mapping
+INFO [2022-10-05 09:18:57] Load files
+INFO [2022-10-05 09:18:57] Load Interaction Table
+INFO [2022-10-05 09:18:57] Calling earth.
+INFO [2022-10-05 09:18:57] Calling R/earth.  This may take some time. 
+INFO [2022-10-05 09:19:44] R/earth finsihed.
+INFO [2022-10-05 09:19:47] Call predict to get estimate.
+INFO [2022-10-05 09:19:47] Calc residual.
+INFO [2022-10-05 09:19:50] Order MLS Data By Residual
+INFO [2022-10-05 09:19:50] Print MARS plot from earth.
+INFO [2022-10-05 09:19:51] Calculate CQA
+INFO [2022-10-05 09:20:44] Create CQA Mapping
+INFO [2022-10-05 09:20:44] Calculate CQA
+INFO [2022-10-05 09:20:44] Create CQA Mapping
