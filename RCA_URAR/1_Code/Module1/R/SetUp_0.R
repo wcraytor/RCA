@@ -274,18 +274,11 @@ ConvertDatesToCharAllDF <- function( ) {
 WriteMlsDfToSqlite <- function()
 {
   flog.info("WriteMlsDfToSqlite",name="Log2File")
-  # Setup SQLite Folder and Filename Paths
 
   # Write MLS Data Frame to SQLite
   kveDB <- dbConnect(RSQLite::SQLite(), projEnv$DbFile)
-
-  flog.info("A1",name="Log2File")
   dbWriteTable(kveDB, "mls", projEnv$MlsDataDF, overwrite = TRUE)
-  flog.info("A2",name="Log2File")
   dbDisconnect(kveDB)
-  flog.info("A3",name="Log2File")
-  #unlink("dbFile")
-  flog.info("A4",name="Log2File")
 }
 
 #'  Write Config Mappings To SQLite
