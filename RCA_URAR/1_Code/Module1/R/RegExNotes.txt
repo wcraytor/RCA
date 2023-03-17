@@ -1,0 +1,10 @@
+RegEx Notes
+
+Replace projEnv$abc with projEnv$Abc:
+projEnv\$([a-z])
+projEnv\$\U\1
+
+
+replace print(...) with flog.info( ..., sep='').
+print\(([^\)]*\))
+flog.info\(\1,name=\"Log2File\"\)
