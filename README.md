@@ -1,6 +1,7 @@
 # RCA
  
 #==================   R MARS Code =======================
+
 Main R Script code is below.  This is what is pulled into R and executed. 
 
 RCA/RCA_URAR/1_Code/Run/RunModule1.R to run earth, create the MARS model, then use the model to create value contributions, feature adjustments and then merge those feature adjustments into form (e.g. URAR) fields.  It also generates numerous graphs, statistics and important tables such as in Stats.xlsx and MlsData.xlsx.
