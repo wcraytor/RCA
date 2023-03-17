@@ -1,25 +1,26 @@
 ################################################   STAGE II ##########################################
-# Author:       Wm. Bert Craytor
-# Location:     242 Clifton Rd., Pacifica, CA 94044, USA
-# Date:         08/12/2021
-# Description:  Stage II script to generate MARS analysis for appraisal data using R:earth\
-#
-# Notes:        1.  This program is free software; you can redistribute it and/or modify
-#                   it under the terms of the GNU General Public License as published by
-#                   the Free Software Foundation; either version 2 of the License, or
-#                   (at your option) any later version.
-#
-#               2.  This program is distributed in the hope that it will be useful,
-#                   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#                   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#                   GNU General Public License for more details.
-#
-#              3.   A copy of the GNU General Public License is available at
-#                   http://www.r-project.org/Licenses
-#
+#' Author:       Wm. Bert Craytor
+#' Location:     242 Clifton Rd., Pacifica, CA 94044, USA
+#' License:      MIT License
+#' Date:         08/12/2021
+#' Description:  Stage II script to generate MARS analysis for appraisal data using R:earth\
+#'
+#' Notes:        1.  This program is free software; you can redistribute it and/or modify
+#'                   it under the terms of the GNU General Public License as published by
+#'                   the Free Software Foundation; either version 2 of the License, or
+#'                   (at your option) any later version.
+#'
+#'              2.  This program is distributed in the hope that it will be useful,
+#'                   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#'                   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#'                   GNU General Public License for more details.
+#'
+#'             3.   A copy of the GNU General Public License is available at
+#'                   http://www.r-project.org/Licenses
+#'
 ######################################################################################################
 #'  Stage3
-#'  This program reads in the MlsData
+#'   
 #'  @return     None
 #'
 #'  @example
@@ -203,7 +204,7 @@ Stage_3 <- function( ) {
   writeData(wb,"Calculations",displayCalcs)
   saveWorkbook(wb,mlsStatsFileName,overwrite=TRUE)
   file.copy(from=mlsStatsFileName,to=
-file.copy(from=projEnv$CodeFolder,to=projEnv$MlsVersionFolder,,   recursive=TRUE,copy.date=TRUE, copy.mode=TRUE)
+  file.copy(from=projEnv$CodeFolder,to=projEnv$MlsVersionFolder,,   recursive=TRUE,copy.date=TRUE, copy.mode=TRUE)
 
 }
 
