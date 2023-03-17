@@ -1,22 +1,23 @@
 ################################################   STAGE I #########################################
-# Author:       Wm. Bert Craytor
-# Location:     242 Clifton Rd., Pacifica, CA 94044, USA
-# Date:         08/12/2021
-# Description:  Stage I script to generate MARS analysis for appraisal data using R:earth\
-#
-# Notes:        1.  This program is free software; you can redistribute it and/or modify
-#                   it under the terms of the GNU General Public License as published by
-#                   the Free Software Foundation; either version 3 of the License, or
-#                   (at your option) any later version.
-#
-#               2.  This program is distributed in the hope that it will be useful,
-#                   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#                   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#                   GNU General Public License for more details.
-#
-#              3.   A copy of the GNU General Public License is available at
-#                   http://www.r-project.org/Licenses
-#
+#' Author:       Wm. Bert Craytor
+#' Location:     242 Clifton Rd., Pacifica, CA 94044, USA
+#' Date:         08/12/2021
+#' License:      MIT License
+#' Description:  Stage I script to generate MARS analysis for appraisal data using R:earth\
+#'
+#' Notes:        1.  This program is free software; you can redistribute it and/or modify
+#'                   it under the terms of the GNU General Public License as published by
+#'                   the Free Software Foundation; either version 3 of the License, or
+#'                   (at your option) any later version.
+#'
+#'               2.  This program is distributed in the hope that it will be useful,
+#'                   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#'                   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#'                   GNU General Public License for more details.
+#'
+#'              3.   A copy of the GNU General Public License is available at
+#'                   http://www.r-project.org/Licenses
+#'
 ######################################################################################################
 
 
