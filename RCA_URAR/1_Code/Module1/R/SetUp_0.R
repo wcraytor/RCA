@@ -684,16 +684,11 @@ SetUp_0 <-
            subjectCQA,
 		   subjectCQA2) 
 {
-
- 
-    flog.info( "Starting Setup_0",name = "Log2File")
-	flog.info( "Starting Setup_0",name = "Log2File")
-	
+    flog.info( "Starting Setup_0")	
     projectFolder <-  projEnv$ProjectFolder
     projectID <- projectID
     mlsData <- mlsData
     mlsSheet <- mlsSheet
-
  
     SetUpProjectEnvironment(    projectID, mlsData, 
                             mlsSheet, targetVariable,bootstrap, pmethod,      ncross,
@@ -705,45 +700,39 @@ SetUp_0 <-
     # Create the MLS Data Frame
     LoadMlsExcelToDataFrame()
     LoadMappingsExcelToDataFrame()
-    #flog.info(paste("projEnv$EffDate1", projEnv$EffDate,name="Log2File"))
 
-
-    flog.info( "Check Original Nameps in MLSData ",name = "Log2Console")
+    flog.info( "Check Original Nameps in MLSData ")
     if (!CheckMlsMappingOriginalNamesAreInMlsData( )) {
       flog.info("Run aborted",name="Log2File")
       return
     }
 
-    flog.info( "Compress Column Names ",name = "Log2File")
-      CompressColumnNamesAllDF( )
+    flog.info( "Compress Column Names ")
+    CompressColumnNamesAllDF( )
     
-    flog.info("R1",name="Log2File")
-    flog.info( "Convert Dates To Char ",name = "Log2File")
+    flog.info( "Convert Dates To Char " )
     ConvertDatesToCharAllDF( )
 
-    flog.info( "Write DataFrames to SQLite ",name = "Log2File")
+    flog.info( "Write DataFrames to SQLite " )
     # Store the MLS Data Frame to the SQLite DB
-    flog.info("WriteMlsDfToSqlite",name="Log2File")
-     WriteMlsDfToSqlite( )
-    flog.info("WriteMlsDfToSqlite",name="Log2File")
-     WriteConfigMappingsDfToSqlite( )
-    flog.info("Add Fields ",name="Log2File")
-    flog.info( "Add Fields ",name = "Log2File")
+    flog.info("WriteMlsDfToSqlite" )
+    WriteMlsDfToSqlite( )
+    WriteConfigMappingsDfToSqlite( )
+    flog.info("Add Fields ")
+ 
     # Add fields
     AddFields( )
-    flog.info("Rename Fields",name="Log2File")
-    flog.info( "Rename Fields ",name = "Log2File")
+    flog.info("Rename Fields" )
     RenameFieldsAndSetAvailable ( )
-    flog.info("Convert DF Fields Bool To Binary",name="Log2File")
-    flog.info( "Convert DF Fields Bool To Binary ",name = "Log2File")
-    flog.info( "Q0", name="Log2File")
+    flog.info("Convert DF Fields Bool To Binary" )
+  
     # This needs to be set in configuration TODO
     ConvertDfFieldBoolToBinary(   "PoolYN")
-    flog.info( "Do Calculations ",name = "Log2File")
+    flog.info( "Do Calculations ")
 
     # Do calculations for calculated fields
     DoCalculations1( )
-    flog.info( paste("Write data to Excel file: ",projEnv$MlsFileStageI),name = "Log2File")
+    flog.info( paste("Write data to Excel file: ",projEnv$MlsFileStageI))
 
     write_xlsx(
       projEnv$MlsDataDFOriginal,
@@ -760,8 +749,8 @@ SetUp_0 <-
       use_zip64  =  FALSE
     )
 
-    flog.info( paste("Generated file: ",projEnv$MlsFileStageI),name = "Log2File")
+    flog.info( paste("Generated file: ",projEnv$MlsFileStageI))
 
-    flog.info( "Done with Set-Up",name = "Log2File")
+    flog.info( "Done with Set-Up")
 
   }
