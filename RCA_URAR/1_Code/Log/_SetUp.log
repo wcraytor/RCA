@@ -1,0 +1,72 @@
+INFO [2023-02-17 19:38:38] Load MLS Excel and Mapping 
+INFO [2023-02-17 19:51:56] Load MLS Excel and Mapping 
+INFO [2023-02-17 19:59:24] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:07:07] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:07:07] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:07:07] Compress Column Names 
+INFO [2023-02-17 20:07:07] Convert Dates To Char 
+INFO [2023-02-17 20:07:07] Write DataFrames to SQLite 
+INFO [2023-02-17 20:10:24] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:10:25] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:10:25] Compress Column Names 
+INFO [2023-02-17 20:10:25] Convert Dates To Char 
+INFO [2023-02-17 20:10:25] Write DataFrames to SQLite 
+INFO [2023-02-17 20:10:25] Add Fields 
+INFO [2023-02-17 20:10:25] Rename Fields 
+INFO [2023-02-17 20:10:25] Convert DF Fields Bool To Binary 
+INFO [2023-02-17 20:15:50] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:15:50] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:15:50] Compress Column Names 
+INFO [2023-02-17 20:15:50] Convert Dates To Char 
+INFO [2023-02-17 20:15:50] Write DataFrames to SQLite 
+INFO [2023-02-17 20:15:51] Add Fields 
+INFO [2023-02-17 20:15:51] Rename Fields 
+INFO [2023-02-17 20:15:51] Convert DF Fields Bool To Binary 
+INFO [2023-02-17 20:19:04] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:19:04] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:19:04] Compress Column Names 
+INFO [2023-02-17 20:19:05] Convert Dates To Char 
+INFO [2023-02-17 20:19:05] Write DataFrames to SQLite 
+INFO [2023-02-17 20:19:05] Add Fields 
+INFO [2023-02-17 20:19:05] Rename Fields 
+INFO [2023-02-17 20:19:05] Convert DF Fields Bool To Binary 
+INFO [2023-02-17 20:21:20] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:21:20] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:21:20] Compress Column Names 
+INFO [2023-02-17 20:21:20] Convert Dates To Char 
+INFO [2023-02-17 20:21:20] Write DataFrames to SQLite 
+INFO [2023-02-17 20:21:21] Add Fields 
+INFO [2023-02-17 20:21:21] Rename Fields 
+INFO [2023-02-17 20:21:21] Convert DF Fields Bool To Binary 
+INFO [2023-02-17 20:25:42] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:25:42] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:25:42] Compress Column Names 
+INFO [2023-02-17 20:25:43] Convert Dates To Char 
+INFO [2023-02-17 20:25:43] Write DataFrames to SQLite 
+INFO [2023-02-17 20:25:43] Add Fields 
+INFO [2023-02-17 20:25:43] Rename Fields 
+INFO [2023-02-17 20:25:43] Convert DF Fields Bool To Binary 
+INFO [2023-02-17 20:29:05] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:29:05] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:29:05] Compress Column Names 
+INFO [2023-02-17 20:29:05] Convert Dates To Char 
+INFO [2023-02-17 20:29:05] Write DataFrames to SQLite 
+INFO [2023-02-17 20:29:06] Add Fields 
+INFO [2023-02-17 20:29:06] Rename Fields 
+INFO [2023-02-17 20:29:06] Convert DF Fields Bool To Binary 
+INFO [2023-02-17 20:31:46] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:31:46] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:31:46] Compress Column Names 
+INFO [2023-02-17 20:31:46] Convert Dates To Char 
+INFO [2023-02-17 20:31:46] Write DataFrames to SQLite 
+INFO [2023-02-17 20:31:47] Add Fields 
+INFO [2023-02-17 20:31:47] Rename Fields 
+INFO [2023-02-17 20:31:47] Convert DF Fields Bool To Binary 
+INFO [2023-02-17 20:33:15] Load MLS Excel and Mapping 
+INFO [2023-02-17 20:33:15] Check Original Nameps in MLSData 
+INFO [2023-02-17 20:33:16] Compress Column Names 
+INFO [2023-02-17 20:33:16] Convert Dates To Char 
+INFO [2023-02-17 20:33:16] Write DataFrames to SQLite 
+INFO [2023-02-17 20:33:16] Add Fields 
+INFO [2023-02-17 20:33:16] Rename Fields 
+INFO [2023-02-17 20:33:16] Convert DF Fields Bool To Binary 

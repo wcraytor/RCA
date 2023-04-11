@@ -1,38 +1,43 @@
 ################################################   Setup #########################################
 # Author:       Wm. Bert Craytor
 # Location:     242 Clifton Rd., Pacifica, CA 94044, USA
-# Date:         07/02/2021
 # License:      MIT License
-# Description:  Setup script to generate MARS (earth)  analysis for appraisal data using R:earth
-
+# Description:  Setup script to generate MARS (earth)  analysis for appraisal data using R:earth 
+ 
 #'  Loads the initial MLS Excel Data File to Data Frames
-#'  @projEnv Project Environment
 #'  @return  Project Environment
 #'
 #' #export
-LoadMlsExcelToDataFrame <- function(projEnv) {
+LoadMlsExcelToDataFrame <- function() {
   print("LoadMlsExcelToDataFrame")
-  print(paste("MLSData File: ",projEnv$MlsFile," ",projEnv$MlsSheet))
-  # Load MLS File into MLS Data Frame
+  print(paste("MLSData File: ",projEnv$mlsDataFile," ",projEnv$MlsSheet))
+
+ # Load MLS File into MLS Data Frame
   projEnv$MlsDataDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = projEnv$MlsSheet ,
               detectDates = TRUE)
+
+  # Keep Orignal copy for version folder
+  projEnv$MlsDataDFOriginal <-
+    read.xlsx(projEnv$mlsDataFile,
+              sheet = projEnv$MlsSheet ,
+              detectDates = TRUE)
+
   assign("MLS", projEnv$MlsDataDF)
-  projEnv
+
 }
 
 #'  Load the Mappings (or configuation file) to a Data Frame
-#'  @projEnv Project Environment
 #'  @return  Project Environment
-LoadMappingsExcelToDataFrame <- function(projEnv) {
+LoadMappingsExcelToDataFrame <- function() {
   print("LoadMappingsExcelToDataFrame")
 
   # Load MLS File into MLS Data Frame
   print("Load Project")
  
   projEnv$ProjectDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "Project" ,
               detectDates = TRUE)
   # Assign the variables in the "Project" sheet to projEnv variables of same name, with the associated values in that
@@ -57,57 +62,56 @@ LoadMappingsExcelToDataFrame <- function(projEnv) {
 
   print("Load OneWayAggregation")
   projEnv$OneWayAggregationDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "OneWayAggregation" ,
               detectDates = TRUE)
   print("Load InteractionAggregation")
   projEnv$InteractionAggregationDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "InteractionAggregation" ,
               detectDates = TRUE)
   print("Load URARMapping")
   
   print("Load AllowedInteractions")
   projEnv$AllowedInteractionsDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "AllowedInteractions" ,
               detectDates = TRUE)
   print("Load MlsMapping")
   projEnv$MlsMappingDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "MlsMapping" ,
               detectDates = TRUE)
  
   print("Load HelpFields")
   projEnv$HelpFieldsDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "HelpFields" ,
               detectDates = TRUE)
   print("Load FieldsRecalculated")
   projEnv$FieldsRecalculatedDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "FieldsRecalculated" ,
               detectDates = TRUE)
   print("Load FieldsCalcStage1DF")
   projEnv$FieldsCalcStage1DF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "FieldsCalcStage1" ,
               detectDates = TRUE)
   print("Load FieldsCalcStage2DF")
   projEnv$FieldsCalcStage2DF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "FieldsCalcStage2" ,
               detectDates = TRUE)
   print("Load RegressionFields")
   projEnv$RegressionFieldsDF <-
-    read.xlsx(projEnv$MlsFile,
+    read.xlsx(projEnv$mlsDataFile,
               sheet = "RegressionFields" ,
               detectDates = TRUE)
-  projEnv
+  
 }
 
 #'  Replace periods in name vector with spaces
-#'  @projEnv Name vector
 #'  @return  Name vector
 RepPeriodWithSpaceColumnNames <- function(cnms) {
   nc <- length(cnms)
@@ -122,11 +126,13 @@ RepPeriodWithSpaceColumnNames <- function(cnms) {
 
 #'  Compress/clean column names
 #'  Replace some characters with more descriptive names and remove unwanted characters such as spaces and periods
-#'  @projEnv Name vector
 #'  @return  Name vector
 CompressColumnNames <- function(cnms) {
   nc <- length(cnms)
 
+  if(nc == 0) 
+    return (NULL)
+	
   print(paste("nc: ", nc))
 
   # Remove spaces, period, parentheses and pound signs from column names
@@ -138,65 +144,68 @@ CompressColumnNames <- function(cnms) {
     cnmsI <- gsub('[^A-z0-9]*', '', cnmsI)
     cnms[i] <- cnmsI
   }
+  print(cnms)
   return (cnms)
 }
 
 #'  Apply CleanColumNames() to all project Data Frames
-#'  @projEnv Name vector
 #'  @return  Name vector
-CompressColumnNamesAllDF <- function(projEnv) {
+CompressColumnNamesAllDF <- function() {
+
   print("Compress MlsDataDF")
+
   colnames(projEnv$MlsDataDF) <-
     CompressColumnNames(colnames(projEnv$MlsDataDF))
+
   print("Compress ProjectDF")
   colnames(projEnv$ProjectDF) <-
     CompressColumnNames(colnames(projEnv$ProjectDF))
   print("Compress OneWayAggregationDF")
+
   colnames(projEnv$OneWayAggregationDF)   <-
     CompressColumnNames(colnames(projEnv$OneWayAggregationDF))
   print("Compress InteractionAggregationDF")
+
   colnames(projEnv$InteractionAggregationDF)  <-
     CompressColumnNames(colnames(projEnv$InteractionAggregationDF))
-
 
   print("Compress AllowedInteractionsDF")
   colnames(projEnv$AllowedInteractionsDF)  <-
     CompressColumnNames(colnames(projEnv$AllowedInteractionsDF))
+
   print("Compress MlsMappingDF")
   colnames(projEnv$MlsMappingDF) <-
     CompressColumnNames(colnames(projEnv$MlsMappingDF))
+
   print("Compress ProjectDF")
   colnames(projEnv$ProjectDF) <-
     CompressColumnNames(colnames(projEnv$ProjectDF))
+
   print("Compress FieldsRecalculated")
-  colnames(projEnv$FieldsRecalculated) <-
-    CompressColumnNames(colnames(projEnv$FieldsRecalculated))
+
+  colnames(projEnv$FieldsRecalculatedDF) <-
+    CompressColumnNames(colnames(projEnv$FieldsRecalculatedDF))
+
   print("Compress FieldsCalcStage1")
-  colnames(projEnv$FieldsCalcStage1) <-
-    CompressColumnNames(colnames(projEnv$FieldsCalcStage1))
+  colnames(projEnv$FieldsCalcStage1DF) <-
+       CompressColumnNames(colnames(projEnv$FieldsCalcStage1DF))
+
   print("Compress FieldsCalcStage2")
-  colnames(projEnv$FieldsCalcStage2) <-
-    CompressColumnNames(colnames(projEnv$FieldsCalcStage2))
+  colnames(projEnv$FieldsCalcStage2DF) <-
+        CompressColumnNames(colnames(projEnv$FieldsCalcStage2DF))
 
-
-  print("Compress HelpFields")
-  colnames(projEnv$HelpFields) <-
-    CompressColumnNames(colnames(projEnv$HelpFields))
+   print("Compress HelpFields")
+   colnames(projEnv$HelpFieldsDF) <-
+     CompressColumnNames(colnames(projEnv$HelpFieldsDF))
 
   print("Compress RegressionFields")
-  colnames(projEnv$RegressionFields) <-
-    CompressColumnNames(colnames(projEnv$RegressionFields))
-
-  print("Finished compression")
-  print(projEnv)
-  print("Finished compressionA")
-  return(projEnv)
+  colnames(projEnv$RegressionFieldsDF) <-
+    CompressColumnNames(colnames(projEnv$RegressionFieldsDF))
 }
 
 #' We need to convert Data Frame Dates to Char/string for the upload to SQLite to work correctly
-#'  @projEnv Name vector
 #'  @return  Name vector
-ConvertDatesToChar <- function(projEnv, df) {
+ConvertDatesToChar <- function(  df) {
   print("ConvertDatesToChar")
 
   # Get the number of columns
@@ -218,55 +227,57 @@ ConvertDatesToChar <- function(projEnv, df) {
       print(df[, i])
     }
   }
-  return (projEnv)
+ 
 }
 
 #' We need to convert Data Frame Dates to Char/string for the upload to SQLite to work correctly
-#'  @projEnv Project Environment
 #'  @return  Project Environment
-ConvertDatesToCharAllDF <- function(projEnv) {
+ConvertDatesToCharAllDF <- function( ) {
   print("ConvertDatesToChar MlsDataDF")
-  projEnv <- ConvertDatesToChar(projEnv, projEnv$MlsDataDF)
+  ConvertDatesToChar(  projEnv$MlsDataDF)
+
   print("ConvertDatesToChar ProjectDF")
-  projEnv <- ConvertDatesToChar(projEnv, projEnv$ProjectDF)
+  ConvertDatesToChar(  projEnv$ProjectDF)
+
   print("ConvertDatesToChar OneWayAggregationDF")
-  projEnv <- ConvertDatesToChar(projEnv, projEnv$OneWayAggregationDF)
+  ConvertDatesToChar(   projEnv$OneWayAggregationDF)
+
   print("ConvertDatesToChar InteractionAggregationDF")
-  projEnv <-
-    ConvertDatesToChar(projEnv, projEnv$InteractionAggregationDF)
-  print("ConvertDatesToChar URARMlsMappingDF")
+  ConvertDatesToChar(  projEnv$InteractionAggregationDF)
+
+  print("ConvertDatesToChar URAR MlsMappingDF")
 
   print("ConvertDatesToChar AllowedInteractionsDF")
-  projEnv <-
-    ConvertDatesToChar(projEnv, projEnv$AllowedInteractionsDF)
+  ConvertDatesToChar( projEnv$AllowedInteractionsDF)
+
   print("ConvertDatesToChar MlsMappingDF")
-  projEnv <- ConvertDatesToChar(projEnv, projEnv$MlsMappingDF)
-  projEnv
+  ConvertDatesToChar(  projEnv$MlsMappingDF)
+  
 }
 
 #' Store the MLS Data Frame to SQLite for ease of use, reliability
-WriteMlsDfToSqlite <- function(projEnv)
+WriteMlsDfToSqlite <- function()
 {
   print("WriteMlsDfToSqlite")
   # Setup SQLite Folder and Filename Paths
 
   # Write MLS Data Frame to SQLite
   kveDB <- dbConnect(RSQLite::SQLite(), projEnv$DbFile)
+
   print("A1")
   dbWriteTable(kveDB, "mls", projEnv$MlsDataDF, overwrite = TRUE)
   print("A2")
   dbDisconnect(kveDB)
   print("A3")
-  unlink("dbFile")
+  #unlink("dbFile")
   print("A4")
-  projEnv
 }
 
 #'  Write Config Mappings To SQLite
-#'  @projEnv Name vector
 #'  @return  Name vector
-WriteConfigMappingsDfToSqlite <- function(projEnv)
+WriteConfigMappingsDfToSqlite <- function()
 {
+  print("WriteConfigMappintsDfToSqlite 1")
   kveDB <- dbConnect(RSQLite::SQLite(), projEnv$DbFile)
   dbWriteTable(kveDB, "Project", projEnv$ProjectDF, overwrite = TRUE)
   dbWriteTable(kveDB,
@@ -299,14 +310,13 @@ WriteConfigMappingsDfToSqlite <- function(projEnv)
                projEnv$MlsMappingDF,
                overwrite = TRUE)
   dbDisconnect(kveDB)
+    print("WriteConfigMappintsDfToSqlite 2")
   unlink("dbFile")
-  projEnv
+    print("WriteConfigMappintsDfToSqlite 3")
 }
 
 #' Initial call is here to set up the environment under projEnv
 #'  @projEnv Project Environment
-#'  @codeFolder codeFolder,
-#'  @projectParentFolder Project files parent folder
 #'  @projectID Project ID
 #'  @mlsDataFile MLS Data File
 #'  @mlsSheet
@@ -321,9 +331,7 @@ WriteConfigMappingsDfToSqlite <- function(projEnv)
 #' Initial call is here to set up the environment under projEnv
 #' #export
 SetUpProjectEnvironment <-
-  function(projEnv,
-           codeFolder,
-           projectParentFolder,
+  function( 
            projectID,
            mlsDataFile,
            mlsSheet,
@@ -333,6 +341,7 @@ SetUpProjectEnvironment <-
            ncross,
            nfold,
            keepxy,
+		   filterInteractions,
            penalty_1D,
            penalty_2D,
            trace,
@@ -343,14 +352,11 @@ SetUpProjectEnvironment <-
            degree,
            subjectCQA) {
 
-             
-           
-
     print("SetUpProjectEnvironment")
 
     projEnv$ProjectID <- projectID
-    projEnv$ProjectParentFolder <- projectParentFolder
-    projEnv$CodeFolder <- codeFolder
+    projEnv$ProjectParentFolder <- projEnv$projectParentFolder
+    
     projEnv$Maxterms <- maxterms
     projEnv$Nprune <- nprune
     projEnv$Degree <- degree
@@ -362,6 +368,7 @@ SetUpProjectEnvironment <-
     projEnv$Ncross <- ncross
     projEnv$Nfold <- nfold
     projEnv$Keepxy <- keepxy
+	  projEnv$FilterInteractions <- filterInteractions
     projEnv$Penalty_1D <- penalty_1D
     projEnv$Penalty_2D <- penalty_2D
     projEnv$Trace <- trace
@@ -369,7 +376,8 @@ SetUpProjectEnvironment <-
     projEnv$INTERACTION_TABLE <- data.frame()
     print(paste("ProjectParentFolder: ", projEnv$ProjectParentFolder))
     # Project Folder Path
-    projEnv$ProjectFolder <- projectParentFolder
+    
+     <- projEnv$ProjectParentFolder
 
     projEnv$AdjGrid <- data.frame()
     projEnv$AgMap <- data.frame()
@@ -385,9 +393,9 @@ SetUpProjectEnvironment <-
     ts <- gsub("-","",ts)
     ts <- gsub(":","",ts)
     ts <- gsub(" ","_",ts)
-
-    projEnv$MlsVersionFolder <- str_c(projEnv$MlsFolder, "VER", ts,"/")
-
+    
+    projEnv$MlsVersionFolder <- str_c(projEnv$mlsFolder , "VER", ts,"/")
+    
 
     print(paste("MlsVersionFolder: ", projEnv$MlsVersionFolder))
 
@@ -399,10 +407,12 @@ SetUpProjectEnvironment <-
     }
 
     # MLS File
-
-    projEnv$MlsFile <- paste(projEnv$MlsFolder,mlsDataFile,".xlsx",sep="")
+ 
+    projEnv$MlsFile <-     projEnv$mlsDataFile
 
     # Add "2" for the prepared data file that is input to Stage I
+     projEnv$MlsFileOriginal <-
+      paste(projEnv$MlsVersionFolder, mlsDataFile, "_Original.xlsx", sep = "")
     projEnv$MlsFileStageI <-
       paste(projEnv$MlsVersionFolder, mlsDataFile, "_StageI.xlsx", sep = "")
     projEnv$MlsFileStageIa <-
@@ -424,7 +434,7 @@ SetUpProjectEnvironment <-
     projEnv$MlsSheet <- mlsSheet
 
     # Folder for SQLite DB
-    projEnv$DbFolder <- paste(projEnv$ProjectFolder, "DB/", sep = '')
+ 
 
     projEnv$Log1 <- paste(projEnv$ProjectFolder, "Log/Log1", sep = '')
     projEnv$Log0 <- paste(projEnv$ProjectFolder, "Log/Log1", sep = '')
@@ -465,7 +475,7 @@ SetUpProjectEnvironment <-
 #' Cross check MlsMapping Original Names are in the MLS Data
 #' @projEnv Project Environment
 #' @return None
-CheckMlsMappingOriginalNamesAreInMlsData <- function(projEnv) {
+CheckMlsMappingOriginalNamesAreInMlsData <- function() {
   colnames(projEnv$MlsDataDF) <-
     RepPeriodWithSpaceColumnNames(colnames(projEnv$MlsDataDF))
   # All projEnv$MlsMappingDF.MLSFields should be in colnames(projEnv$MlsDataDF
@@ -496,9 +506,8 @@ CheckMlsMappingOriginalNamesAreInMlsData <- function(projEnv) {
 }
 
 #' Do any field renaming as set in the Mappings:MlsMapping sheet and then print as the initial AvailableFields in same named sheet
-#' @projEnv Project Environment
 #' @return None
-RenameFieldsAndSetAvailable  <- function(projEnv) {
+RenameFieldsAndSetAvailable  <- function() {
 
   renamed <-  projEnv$MlsMappingDF[["Renamed"]]
   mlsFields <-  projEnv$MlsMappingDF[["MLSFields"]]
@@ -530,14 +539,14 @@ RenameFieldsAndSetAvailable  <- function(projEnv) {
   renameString <- paste(renameString, "))",sep="")
   print(renameString)
   projEnv$MlsDataDF <- eval(parse(text = renameString))
-  return(projEnv)
+
 }
 
 #'  Add fields to the MLS Data Data Frame
 #'  @projEnv Project Environment
 #'  @return None
 #' #export
-AddFields <- function(projEnv) {
+AddFields <- function() {
   flds <- projEnv$FieldsCalcStage1DF[["Fields"]]
   nf <- length(flds)
   nr <- nrow(projEnv$MlsDataDF)
@@ -565,11 +574,9 @@ AddFields <- function(projEnv) {
 }
 
 #' Do the calculations for calculated fields
-#' @projEnv Project Environment
 #' @return None
 #' #export
-DoCalculations1 <- function(projEnv) {
-  #print("M1")
+DoCalculations1 <- function() {
   flds <- projEnv$FieldsCalcStage1DF[["Fields"]]
   calcs <- projEnv$FieldsCalcStage1DF[["Calculation"]]
   vars <- projEnv$FieldsCalcStage1DF[["Variable"]]
@@ -649,8 +656,14 @@ cppFunction('int signC(int x) {
 
 AbortRun <- FALSE
 
+
+#########################################################################
+#########################################################################
+#########################################################################
+#########################################################################
+#########################################################################
+#########################################################################
 #' SetUp
-#'  @projEnv Project Environment
 #'  @codeFolder codeFolder,
 #'  @projectParentFolder Project files parent folder
 #'  @projectID Project ID
@@ -659,14 +672,11 @@ AbortRun <- FALSE
 #'  @subjectCQA  Subject CQA
 #'
 #'  @example
-#'  Stage_1(projEnv)
 #'
 #' Out main Stage I function:
 #' #export
 SetUp_0 <-
-  function(projEnv,
-           codeFolder,
-           projectParentFolder,
+  function( 
            projectID,
            mlsData,
            mlsSheet,
@@ -676,6 +686,7 @@ SetUp_0 <-
            ncross,
            nfold,
            keepxy,
+		       filterInteractions,
            penalty_1D,
            penalty_2D,
            trace,
@@ -684,76 +695,86 @@ SetUp_0 <-
            minspan,
            endspan,
            degree,
-           subjectCQA) {
+           subjectCQA) 
+{
 
-    flog.appender(appender.console(), name="SC")
-    flog.appender(appender.file("C:/Order_1/Market/_SetUp.log"),name="S1")
-
-    projectParentFolder <-  projectParentFolder
+ 
+    flog.info( "Starting Setup_0",name = "Log2File")
+	flog.info( "Starting Setup_0",name = "Log2File")
+	
+    projectParentFolder <-  projEnv$projectParentFolder
     projectID <- projectID
     mlsData <- mlsData
     mlsSheet <- mlsSheet
 
-   # flog.info( "SetUpProjectEnvironment",name="S1")
-    SetUpProjectEnvironment(projEnv, codeFolder, projectParentFolder, projectID, mlsData, 
+ 
+    SetUpProjectEnvironment(    projectID, mlsData, 
                             mlsSheet, targetVariable,bootstrap, pmethod,      ncross,
-                            nfold,   keepxy,  penalty_1D,  penalty_2D,trace,maxterms,nprune,minspan,
+                            nfold,   keepxy, filterInteractions, penalty_1D,  penalty_2D,trace,maxterms,nprune,minspan,
                             endspan,degree,subjectCQA)
  
-    flog.info( "Load MLS Excel and Mapping ",name="S1")
+    flog.info( "Load MLS Excel and Mapping ",name = "Log2Console")
 
     # Create the MLS Data Frame
-    projEnv <- LoadMlsExcelToDataFrame(projEnv)
-    projEnv <- LoadMappingsExcelToDataFrame(projEnv)
+    LoadMlsExcelToDataFrame()
+    LoadMappingsExcelToDataFrame()
     #print(paste("projEnv$EffDate1", projEnv$EffDate))
 
 
-    flog.info( "Check Original Nameps in MLSData ",name="S1")
-    if (!CheckMlsMappingOriginalNamesAreInMlsData(projEnv)) {
+    flog.info( "Check Original Nameps in MLSData ",name = "Log2Console")
+    if (!CheckMlsMappingOriginalNamesAreInMlsData( )) {
       print("Run aborted")
       return
     }
 
-    flog.info( "Compress Column Names ",name="S1")
-    projEnv <- CompressColumnNamesAllDF(projEnv)
+    flog.info( "Compress Column Names ",name = "Log2File")
+      CompressColumnNamesAllDF( )
     
-    flog.info( "Convert Dates To Char ",name="S1")
-    projEnv <- ConvertDatesToCharAllDF(projEnv)
+    print("R1")
+    flog.info( "Convert Dates To Char ",name = "Log2File")
+    ConvertDatesToCharAllDF( )
 
-    flog.info( "Write DataFrames to SQLite ",name="S1")
+    flog.info( "Write DataFrames to SQLite ",name = "Log2File")
     # Store the MLS Data Frame to the SQLite DB
     print("WriteMlsDfToSqlite")
-    projEnv <- WriteMlsDfToSqlite(projEnv)
+     WriteMlsDfToSqlite( )
     print("WriteMlsDfToSqlite")
-    projEnv <- WriteConfigMappingsDfToSqlite(projEnv)
+     WriteConfigMappingsDfToSqlite( )
     print("Add Fields ")
-    flog.info( "Add Fields ",name="S1")
+    flog.info( "Add Fields ",name = "Log2File")
     # Add fields
-    AddFields(projEnv)
+    AddFields( )
     print("Rename Fields")
-    flog.info( "Rename Fields ",name="S1")
-    RenameFieldsAndSetAvailable (projEnv)
+    flog.info( "Rename Fields ",name = "Log2File")
+    RenameFieldsAndSetAvailable ( )
     print("Convert DF Fields Bool To Binary")
-    flog.info( "Convert DF Fields Bool To Binary ",name="S1")
-
+    flog.info( "Convert DF Fields Bool To Binary ",name = "Log2File")
+    flog.info( "Q0", name="Log2File")
     # This needs to be set in configuration TODO
-    ConvertDfFieldBoolToBinary(projEnv, "PoolYN")
-    flog.info( "Do Calculations ",name="S1")
+    ConvertDfFieldBoolToBinary(   "PoolYN")
+    flog.info( "Do Calculations ",name = "Log2File")
 
     # Do calculations for calculated fields
-    DoCalculations1(projEnv)
-    flog.info( paste("Write data to Excel file: ",projEnv$MlsFileStageI),name="S1")
+    DoCalculations1( )
+    flog.info( paste("Write data to Excel file: ",projEnv$MlsFileStageI),name = "Log2File")
 
+    write_xlsx(
+      projEnv$MlsDataDFOriginal,
+      projEnv$MlsFileOriginal,
+      col_names  =  TRUE,
+      format_headers  =  TRUE,
+      use_zip64  =  FALSE
+    )
     write_xlsx(
       projEnv$MlsDataDF,
       projEnv$MlsFileStageI,
-      col_names = TRUE,
-      format_headers = TRUE,
-      use_zip64 = FALSE
+      col_names  =  TRUE,
+      format_headers  =  TRUE,
+      use_zip64  =  FALSE
     )
 
-    flog.info( paste("Generated file: ",projEnv$MlsFileStageI),name="S1")
+    flog.info( paste("Generated file: ",projEnv$MlsFileStageI),name = "Log2File")
 
-    flog.info( "Done with Set-Up",name="S1")
+    flog.info( "Done with Set-Up",name = "Log2File")
 
   }
