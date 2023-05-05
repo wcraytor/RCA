@@ -72,7 +72,7 @@ Stage_3 <- function( ) {
 
   
   x2 <-projEnv$SGPrepDF[c("Beds","Baths","BathsFull","BathsHalf","Age","FrPlcNbr","Garage","DaysOffMkt", "PoolYN", "Longitude",
-  "Concessions", "ContractSP","Proximity", "HazScore","EarthQuake","Liquifaction","Landslide",   "Latitude","LotSize", "CloseDate", "AreaNbr","Kitchen","Bathroom","PropertyType", "Fireplaces","PropertySubType",
+  "Concessions", "ContractSP","Proximity", "HazScore","Earthquake","Liquifaction","Landslide",   "Latitude","LotSize", "CloseDate", "AreaNbr","Kitchen","Bathroom","PropertyType", "Fireplaces","PropertySubType",
               "Bedrooms", "ListPrice","ListingDate","Zoning","Status","ParcelNbr","County","Carport","Parking","BGLA","ULA","GarageSF") ]
  
   newColumns <- cbind(newColumns,x2)

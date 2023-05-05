@@ -1129,7 +1129,7 @@ LoadSubjectData <- function() {
   projEnv$RcaInputDF[8, "S4"] <- ColExistsNumeric(1, "Contrib_DaysOffMkt")
   projEnv$RcaInputDF[9, "S1"] <- ColExists(1, "Longitude")
   projEnv$RcaInputDF[9, "S2"] <- ColExists(1, "Latitude")
-  projEnv$RcaInputDF[9, "S4"] <- ColExistsNumeric(1, "Contrib_Location")
+  projEnv$RcaInputDF[9, "S4"] <- ColExistsNumeric(1, "Contrib_Latitude") + ColExistsNumeric(1, "Contrib_Longitude")
   projEnv$RcaInputDF[10, "S1"] <- paste(ColExists(1, "LotSize"),"sf")
   projEnv$RcaInputDF[10, "S2"] <- "N/A"
   projEnv$RcaInputDF[10, "S4"] <- ColExistsNumeric(1, "Contrib_LotSize")
@@ -1256,7 +1256,7 @@ LoadCompData <- function(r ) {
   print(paste("Y2"))
   projEnv$RcaInputDF[9, cnfv1]  <- ColExistsNumeric(r,"Longitude",3) 
   projEnv$RcaInputDF[9, cnfv2]  <- ColExistsNumeric(r,"Latitude",3) 
-  projEnv$RcaInputDF[9, cnvc1]  <- ColExistsNumeric(r, "Contrib_Location")
+  projEnv$RcaInputDF[9, cnvc1]  <- ColExistsNumeric(r, "Contrib_Latitude") + ColExistsNumeric(r, "Contrib_Longitude")
   projEnv$RcaInputDF[10, cnfv1] <- paste(ColExistsNumeric(r, "LotSize"),"sf")
   projEnv$RcaInputDF[10, cnfv2] <- "N/A" # Dimensions
   projEnv$RcaInputDF[10, cnvc1] <- ColExistsNumeric(r, "Contrib_LotSize") 
@@ -1421,7 +1421,8 @@ RCA_SalesGrid <-
 		writeFormula(projEnv$RcaWB,sheet=k, x= "C26-SUM(D28:D39)" , startRow=26,startCol=5)
 		writeFormula(projEnv$RcaWB,sheet=k, x= "G26-SUM(I28:I39)" , startRow=26,startCol=9)
 		writeFormula(projEnv$RcaWB,sheet=k, x= "L26-SUM(N28:N38)" , startRow=26,startCol=14)
-		
+	    writeFormula(projEnv$RcaWB,sheet=k, x= "Q26-SUM(S28:S38)" , startRow=26,startCol=19)
+			
 		writeFormula(projEnv$RcaWB,sheet=k, x= "SUM(E8:E24)+SUM(E26:E39)" , startRow=40,startCol=5)
 		writeFormula(projEnv$RcaWB,sheet=k, x= "SUM(I8:I24)+SUM(I26:I39)" , startRow=40,startCol=9)
 		writeFormula(projEnv$RcaWB,sheet=k, x= "SUM(N8:N24)+SUM(N26:N39)" , startRow=40,startCol=14)
@@ -1451,8 +1452,8 @@ RCA_SalesGrid <-
     	 }
 		 
 
-		writeFormula(projEnv$RcaWB,sheet=k, x= "Q26-SUM(S28:S38)" , startRow=26,startCol=19)
-		writeFormula(projEnv$RcaWB,sheet=k, x= "SUM(S8:S24)+SUM(S26:S38)" , startRow=39,startCol=19)
+	
+	 
 		for(n in c(8:24,26:38)) {
 		  eFormula <- paste("E",n,"-","S",n,sep="")
 		  writeFormula(projEnv$RcaWB,sheet=k, x= eFormula , startRow=n,startCol=20)
