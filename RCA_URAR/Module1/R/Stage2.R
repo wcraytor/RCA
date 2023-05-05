@@ -47,7 +47,7 @@ Stage_2 <- function(  ) {
   contribVars <- c()
 
   flog.info( "Create MARS Model Switches",name="Log2File")
-  # Create a list "lmvhl" of switches for each of the items in listModel
+  # Create a list "lmv" of switches for each of the items in listModel
   nm <- length(projEnv$ListModelVars)
   lmv <- projEnv$ListModelVars
   lmvF <- projEnv$ListModelFactors
