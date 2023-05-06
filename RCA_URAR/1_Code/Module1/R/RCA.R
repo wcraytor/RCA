@@ -240,7 +240,7 @@ RcaWBStyle <- function() {
     print("B")
     mergeCells(projEnv$RcaWB, k, cols = 3:4, rows = 26:26)
     mergeCells(projEnv$RcaWB, k, cols = 7:8, rows = 26:26)
-    mergeCells(projEnv$RcaWB, k, cols = 11:13, rows = 26:26)
+    mergeCells(projEnv$RcaWB, k, cols = 12:13, rows = 26:26)
     mergeCells(projEnv$RcaWB, k, cols = 17:18, rows = 26:26)
 
     mergeCells(projEnv$RcaWB, k, cols = 2:4, rows = 27:27)
@@ -1106,10 +1106,13 @@ LoadSubjectData <- function() {
       format = "%m/%d/%Y"
     )) - 2000, width = 2, pad = "0")
 
+
+ 
   saleDt <- str_c(saleMonth, "/", saleDay, "/", saleYear)
   closeDt <- str_c(closeMonth, "/", closeDay, "/", closeYear)
   projEnv$RcaInputDF[25, "S4"] <- "=C26-SUM(E27:E38)"
   print("abc1")
+  
   projEnv$RcaInputDF[3, "S1"] <-
     paste(projEnv$MlsCompsDF[1, "Address"], projEnv$MlsCompsDF[1, "CityStateZip"])
   projEnv$RcaInputDF[4, "S1"] <- "N/A"
@@ -1236,6 +1239,7 @@ LoadCompData <- function(r ) {
     projEnv$RcaInputDF[2,cnfv1] <- paste("Comparable ",c)
  
   print(paste("Y1"))
+  projEnv$RcaInputDF[2, cnfv1] <- paste("Comparable ", r-1,sep="")
   projEnv$RcaInputDF[3, cnfv1] <-  paste(projEnv$MlsCompsDF[r, "Address"], projEnv$MlsCompsDF[r, "CityStateZip"])
   projEnv$RcaInputDF[4, cnfv1] <-  projEnv$MlsCompsDF[r, "ParcelNbr"]
   projEnv$RcaInputDF[4, cnfv2] <-  projEnv$MlsCompsDF[r, "MlsNbr"]
@@ -1304,7 +1308,8 @@ LoadCompData <- function(r ) {
     projEnv$RcaInputDF[25, cnfv2] <-
       ColExistsNumeric(r, "Residual")
   }
-  
+   projEnv$RcaInputDF[25, "S1"] <- ColExists(1, "CQA2")
+  projEnv$RcaInputDF[25, "S2"] <- ColExists(1, "Residual2")
  
   print(paste("Y5"))
   # 25: see above
@@ -1364,7 +1369,7 @@ RCA_SalesGrid <-
   
     # now iterate through the top 12 compos 3 at a time, loading their data into the data frame:
     for (i in 2:13) {
-	
+	 sheet <- floor((i - 2) / 3) + 1
 	 rm1 <- i - 2
      c <- mod(rm1, 3) + 1
 	  c1fv1 <- paste("C", c, "FV", 1, sep = "")
@@ -1376,8 +1381,8 @@ RCA_SalesGrid <-
   
       print(paste("i: ", i))
       # Set the RCA page title to "Comps <from>-<to>"
-      cfirst <-  floor((i-2)/3)*3 +1
-      clast <- cfirst + 2
+      cfirst <-    (floor((i-2)/3)*3 +1)
+      clast <-    (cfirst + 2)
       projEnv$RcaInputDF[1, "Features"] <-
         paste("Sales Comparable Grid: ", "Comps ", cfirst, "-", clast,
           sep =
@@ -1418,10 +1423,10 @@ RCA_SalesGrid <-
 		writeFormula(projEnv$RcaWB,sheet=k, x= "K6-N6" , startRow=6,startCol=15)
 		writeFormula(projEnv$RcaWB,sheet=k, x= "P6-S6" , startRow=6,startCol=20)
 		 
-		writeFormula(projEnv$RcaWB,sheet=k, x= "C26-SUM(D28:D39)" , startRow=26,startCol=5)
-		writeFormula(projEnv$RcaWB,sheet=k, x= "G26-SUM(I28:I39)" , startRow=26,startCol=9)
-		writeFormula(projEnv$RcaWB,sheet=k, x= "L26-SUM(N28:N38)" , startRow=26,startCol=14)
-	    writeFormula(projEnv$RcaWB,sheet=k, x= "Q26-SUM(S28:S38)" , startRow=26,startCol=19)
+		writeFormula(projEnv$RcaWB,sheet=k, x= "C26-SUM(D27:D39)" , startRow=26,startCol=5)
+		writeFormula(projEnv$RcaWB,sheet=k, x= "G26-SUM(I27:I39)" , startRow=26,startCol=9)
+		writeFormula(projEnv$RcaWB,sheet=k, x= "L26-SUM(N27:N38)" , startRow=26,startCol=14)
+	    writeFormula(projEnv$RcaWB,sheet=k, x= "Q26-SUM(S27:S38)" , startRow=26,startCol=19)
 			
 		writeFormula(projEnv$RcaWB,sheet=k, x= "SUM(E8:E24)+SUM(E26:E39)" , startRow=40,startCol=5)
 		writeFormula(projEnv$RcaWB,sheet=k, x= "SUM(I8:I24)+SUM(I26:I39)" , startRow=40,startCol=9)
