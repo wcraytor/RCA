@@ -62,6 +62,52 @@ library(openxlsx)
 #'  @RcaInput Rca Input File
 #' Initial call is here to set up the environment under projEnv
 #' #export
+
+
+# Meant to create border around entire projEnv$RcaWB.  But doesn't work as advertised
+OutsideBorders <-
+  function(wb_,
+           sheet_,
+           rows_,
+           cols_,
+           border_col = "#002060",
+           border_thickness = "thick") {
+    left_col = 1
+    right_col = 20
+    top_row = 1
+    bottom_row = 43
+    
+    sub_rows <- list(c(bottom_row:top_row),
+                     c(bottom_row:top_row),
+                     top_row,
+                     bottom_row)
+    
+    sub_cols <- list(left_col,
+                     right_col,
+                     c(left_col:right_col),
+                     c(left_col:right_col))
+    
+    directions <- list("Left", "Right", "Top", "Bottom")
+    
+    mapply(function(r_, c_, d) {
+      temp_style <- createStyle(border = d,
+                                borderColour = border_col,
+                                borderStyle = border_thickness)
+      addStyle(
+        wb_,
+        sheet_,
+        style = temp_style,
+        rows = r_,
+        cols = c_,
+        gridExpand = TRUE,
+        stack = TRUE
+      )
+      
+    }, sub_rows, sub_cols, directions)
+  }
+
+ 
+ 
 InitDataFrames <-
   function() {
     print("InitDataFrames")
@@ -538,6 +584,7 @@ RcaWBStyle <- function() {
 	     borderStyle = openxlsx_getOp("borderStyle", "thin"),
 	     numFmt="#,##0",
 		   fgFill = "#FFFFFF",
+		    indent=0,
 		 halign="right",
 		 valign="center")
 		 
@@ -550,6 +597,7 @@ RcaWBStyle <- function() {
 		 fgFill = "#E2EFDA",
 		 halign="center",
 		 valign="center")
+		 
    numStyleCurr <-
 	  createStyle(
 	     border = "TopBottomLeftRight",
@@ -557,6 +605,7 @@ RcaWBStyle <- function() {
 		 borderStyle = openxlsx_getOp("borderStyle", "thin"),
 	     numFmt="$#,##0",
 	     fgFill = "#FFFFFF",
+		 indent=0,
 		 halign="right",
 		 valign="center")	 
 		 
@@ -704,8 +753,7 @@ RcaWBStyle <- function() {
 				  numStyleCurr,
 				  rows=8:24,
 				  cols=n,
-				  stack=TRUE,
-				  gridExpand=TRUE)
+				  stack=TRUE)
 				  
 		   addStyle(
 				  projEnv$RcaWB,
@@ -713,16 +761,15 @@ RcaWBStyle <- function() {
 				  numStyleCurr,
 				  rows=26:40,
 				  cols=n,
-				  stack=TRUE,
-				  gridExpand=TRUE)
+				  stack=TRUE)
 		   addStyle(
 				  projEnv$RcaWB,
 				  sheet = k,
 				  numStyleCurr,
 				  rows=42,
 				  cols=n,
-				  stack=TRUE,
-				  gridExpand=TRUE)
+				  stack=TRUE)
+		# conditionalFormatting(projEnv$RcaWB,sheet=k,cols=n,rows=8:24,rule="!=0",style=numStyleCurr)
 	  }
 	  
 	 
@@ -892,6 +939,539 @@ SetUpFeatures <- function() {
   print("end")
 }
 
+
+RcaWBStyleUpdate <- function() {
+   
+
+  colWidths <-
+    c(29, 11, 8, 4, 12, 11, 8, 7, 12, 11, 11, 8, 7, 12, 11, 11, 8, 7, 12, 11)
+  cols <-
+    c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+
+  for (k in 1:4) {
+  	 
+    
+  
+ 
+	
+	  line2Style <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+        textDecoration = "bold",
+        fontColour= "#FFFFFF",
+        borderStyle = openxlsx_getOp("borderStyle", "thick"),
+        valign = "center",
+        halign = "center",
+        fgFill = "#002060"
+      )
+	 
+    cellBorderStyle <- 
+	 createStyle(
+	    border ="TopBottomLeftRight",
+		borderColour="#002060",
+		borderStyle="thick"
+	 )
+	 
+	line3Style <-
+      createStyle(
+      
+        border = "TopBottomLeftRight",
+        textDecoration = "bold",
+        borderColour = "#002060",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "center",
+        fgFill = "#CCCCFF"
+      )
+	 
+	 line3StyleLocked <-
+      createStyle(
+        border = NULL,
+        lock=TRUE,
+        textDecoration = "bold",
+        borderColour = "#002060",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "center",
+        fgFill = "#CCCCFF"
+      )
+	  
+	 col1Style <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+         textDecoration = "bold",
+        
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "left",
+        fgFill = "#CCCCFF"
+      )
+	  
+    line4Style <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "left",
+        fgFill = "#E2EFDA"
+      )
+	  
+     line4StyleBold <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+		borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        textDecoration = "bold",
+       
+        valign = "center",
+        halign = "center",
+        fgFill = "#E2EFDA"
+      )
+	  
+	 line4StyleBold <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+        textDecoration = "bold",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "left",
+        fgFill = "#E2EFDA"
+      )
+	  
+    line5Style <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "center",
+        fgFill = "#E2EFDA"
+      )
+	  
+	  
+    line6StyleBold <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+        textDecoration = "bold",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "left",
+        fgFill = "#F2F2F2"
+      )
+	  
+   line6Style  <-
+      createStyle(
+	     numFmt="$#,##0",
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "right",
+		 bgFill = "#FFFFFF",
+        fgFill = "#F2F2F2"
+      )
+	  
+  line40Style <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+		borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        bgFill = "#CCCCFF",
+        valign = "center",
+        halign = "center",
+        fgFill = "#FFFFFF"
+      ) 
+   line43Style <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+		borderStyle = openxlsx_getOp("borderStyle", "thick"),
+     
+        valign = "center",
+        halign = "center",
+        fgFill = "#CCCCFF"
+      )
+    bodyStyle <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+		borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        bgFill = "#CCCCFF",
+        valign = "center",
+        halign = "center",
+        fgFill = "#FFFFFF"
+      )
+	  bodyStyleGreen <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        borderColour = "#002060",
+		borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        bgFill = "#CCCCFF",
+        valign = "center",
+        halign = "center",
+        fgFill = "#E2EFDA"
+      )
+	 gisStyle3 <-
+	  createStyle(
+	     border = "TopBottomLeftRight",
+         borderColour = "#002060",
+		 borderStyle = openxlsx_getOp("borderStyle", "thin"),
+	     numFmt="0.000",
+	    
+		 halign="center",
+		 valign="center")
+		 
+	line10Style <- createStyle(
+	     border = "TopBottomLeftRight",
+         borderColour = "#002060",
+		 borderStyle = openxlsx_getOp("borderStyle", "thin"),
+	     numFmt="#,##0",
+		 halign="center",
+		 valign="center")
+	
+    line41Style  <-
+      createStyle(
+        border = "TopBottomLeftRight",
+        textDecoration = "bold",
+        borderColour = "#002060",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "center",
+        fgFill = "#CCCCFF"
+      )
+	  
+	 line42Style  <-
+      createStyle(
+        border = "Bottom",
+        textDecoration = "bold",
+        borderColour = "#002060",
+        borderStyle = openxlsx_getOp("borderStyle", "thin"),
+        valign = "center",
+        halign = "center",
+        fgFill = "#CCCCFF"
+      )
+	  
+    numStyle <-
+	  createStyle(
+	     border = "TopBottomLeftRight",
+         borderColour = "#002060",
+	     borderStyle = openxlsx_getOp("borderStyle", "thin"),
+	     numFmt="#,##0 ",
+		   fgFill = "#FFFFFF",
+		    indent=0,
+		 halign="right",
+		 valign="center")
+		 
+	 numStyleMiles <-
+	  createStyle(
+	     border = "TopBottomLeftRight",
+         borderColour = "#002060",
+	     borderStyle = openxlsx_getOp("borderStyle", "thin"),
+	     numFmt="#,##0.00",
+		 fgFill = "#E2EFDA",
+		 halign="center",
+		 valign="center")
+		 
+   numStyleCurr <-
+	  createStyle(
+	     border = "TopBottomLeftRight",
+         borderColour = "#002060",
+		 borderStyle = openxlsx_getOp("borderStyle", "thin"),
+	     numFmt="$#,##0 ",
+	     fgFill = "#FFFFFF",
+		 indent=0,
+		 halign="right",
+		 valign="center")	 
+		 
+     numStyleCQA <-
+	  createStyle(
+	     border = "TopBottomLeftRight",
+         borderColour = "#002060",
+		 borderStyle = openxlsx_getOp("borderStyle", "thin"),
+	     numFmt="0.00",
+		 halign="center",
+		 valign="center")	
+		 
+	############################### Add Styles:  #######################
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line2Style,
+      rows = 2:2,
+      cols = 1:20,
+      gridExpand = FALSE
+    )
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line3Style,
+      rows = 3:3,
+      cols = 1:20,
+      stack=TRUE,
+      gridExpand = TRUE
+    )
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line4Style,
+      rows = 4,
+      cols = 2:20,
+	  stack=TRUE,
+      gridExpand = TRUE
+    )
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line4StyleBold,
+      rows = 4:5,
+      cols = 1:1,
+	  stack=TRUE,
+      gridExpand = TRUE
+    )
+	
+	
+	 
+    addStyle(
+		  projEnv$RcaWB,
+		  sheet = k,
+		  line5Style,
+		  rows=5:5,
+		  cols=2:20,
+		  stack=TRUE,
+		  gridExpand=TRUE)
+ 
+	  
+	  
+	# # Line 6 col 1
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line6StyleBold,
+      rows = 6:6,
+      cols = 1:1,
+	    stack=TRUE,
+      gridExpand = FALSE
+    )
+	# line 6 cols 2-20
+	addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line6Style,
+      rows = 6:6,
+      cols = 2:20,
+	  stack=TRUE,
+      gridExpand = TRUE
+    )
+	
+	 # for( n in 6:20) {
+		  # addStyle(
+				  # projEnv$RcaWB,
+				  # sheet = k,
+				  # numStyleCurr,
+				  # rows=6:6,
+				  # cols=n,
+				  # stack=TRUE,
+				  # gridExpand=FALSE)
+		  
+	   # }
+	   
+	# Line 7 Cols 1-20
+    addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line3Style,
+      rows = 7:7,
+      cols = 1:20,
+      gridExpand = FALSE
+    )
+	#  Col 1, Lines 7:43 Light blue
+    addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      col1Style,
+      rows = 7:43,
+      cols = 1:1,
+	  stack=TRUE,
+      gridExpand = TRUE
+    )
+	
+    addStyle(
+	 projEnv$RcaWB,
+      sheet = k,
+	  numStyle,
+	  rows=8:24,
+	  cols=5:5,
+	  stack=TRUE,
+	  gridExpand=TRUE
+	  )
+	  
+	 # Center GIS Coordinates & Size Size, Dimensions, Actual Age, Beds, Baths
+     for(n in c(2,3, 5, 6, 11,12,16,17)) {
+		  addStyle(
+			  projEnv$RcaWB,
+			  sheet = k,
+			  gisStyle3,
+			  rows=8:9,
+			  cols=n,
+			  stack=TRUE,
+			  gridExpand=TRUE
+	      )
+		}  
+		
+		 
+	   # Value Contrib & Adjustment Columns
+	    for( n in c(5, 9,10,14,15,19,20)) {
+		  addStyle(
+				  projEnv$RcaWB,
+				  sheet = k,
+				  numStyleCurr,
+				  rows=8:24,
+				  cols=n,
+				  stack=TRUE,
+				  gridExpand=TRUE)
+				  
+		   addStyle(
+				  projEnv$RcaWB,
+				  sheet = k,
+				  numStyleCurr,
+				  rows=26:40,
+				  cols=n,
+				  stack=TRUE,
+				  gridExpand=TRUE)
+		   addStyle(
+				  projEnv$RcaWB,
+				  sheet = k,
+				  numStyleCurr,
+				  rows=42,
+				  cols=n,
+				  stack=TRUE,
+				  gridExpand=TRUE)
+	   conditionalFormatting(projEnv$RcaWB,sheet=k,cols=n,rows=8:24,rule="!=0",style=numStyleCurr)
+	  }
+	  
+	 
+	  for( n in c(2,3,4,6,7,8,11,12,13,16,17,18)) {
+		  addStyle(
+				  projEnv$RcaWB,
+				  sheet = k,
+				  line10Style,
+				  rows=10:24,
+				  cols=n,
+				  stack=TRUE,
+				  gridExpand=TRUE)
+				  
+		  addStyle(
+				  projEnv$RcaWB,
+				  sheet = k,
+				  line10Style,
+				  rows=24:38,
+				  cols=n,
+				  stack=TRUE,
+				  gridExpand=TRUE)	  
+	  }
+	  
+	    
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line3Style,
+      rows = 25:25,
+      cols = 2:20,
+	    stack=TRUE,
+      gridExpand = TRUE
+    )
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line3Style,
+      rows = 25:25,
+      cols = 2:8,
+	    stack=TRUE,
+      gridExpand = TRUE
+    )
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line3Style,
+      rows = 25:25,
+      cols = 11:13,
+	    stack=TRUE,
+      gridExpand = TRUE
+    )
+	 addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line3Style,
+      rows = 25:25,
+      cols = 16:18,
+	    stack=TRUE,
+      gridExpand = TRUE
+    )
+	
+	# Lines 4:43, cols 2-9, Light Blue
+    addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line41Style,
+      rows = 41:42 ,
+      cols = 1:9,
+	    stack=TRUE,
+      gridExpand = TRUE
+    )
+   
+    addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line41Style,
+      rows = 41:42,
+      cols = 11:14,
+	  stack=TRUE,
+      gridExpand = TRUE
+    )
+	 
+    addStyle(
+      projEnv$RcaWB,
+      sheet = k,
+      line41Style,
+      rows = 41:42 ,
+      cols = 16:19,
+	  stack=TRUE,
+      gridExpand = TRUE
+    )
+  
+	 addStyle(
+	 projEnv$RcaWB,
+      sheet = k,
+	  bodyStyle,
+	  rows=43:43,
+	  cols=1:20,
+	  stack=TRUE,
+	  gridExpand=TRUE
+	  )   
+
+ 
+   OutsideBorders(
+		  projEnv$RcaWB,
+		  sheet = k,
+		  rows = 2:43,
+		  cols = 1:20
+		)
+   OutsideBorders(
+		  projEnv$RcaWB,
+		  sheet = k,
+		  rows = 2:42,
+		  cols = 1:20
+		)
+			 
+    print("Y")
+    }
+  
+}
 #' Load Comp data from SGPrepDataFile to projEnv$MlsCompsDF
 LoadCompsToDataFrameRCA <- function() {
   print("LoadCompsToDataFrameRCA")
@@ -932,49 +1512,6 @@ Initialize_RcaInputDF <- function() {
   )
 }
 
-# Meant to create border around entire projEnv$RcaWB.  But doesn't work as advertised
-OutsideBorders <-
-  function(wb_,
-           sheet_,
-           rows_,
-           cols_,
-           border_col = "#002060",
-           border_thickness = "thick") {
-    left_col = 1
-    right_col = 20
-    top_row = 1
-    bottom_row = 43
-    
-    sub_rows <- list(c(bottom_row:top_row),
-                     c(bottom_row:top_row),
-                     top_row,
-                     bottom_row)
-    
-    sub_cols <- list(left_col,
-                     right_col,
-                     c(left_col:right_col),
-                     c(left_col:right_col))
-    
-    directions <- list("Left", "Right", "Top", "Bottom")
-    
-    mapply(function(r_, c_, d) {
-      temp_style <- createStyle(border = d,
-                                borderColour = border_col,
-                                borderStyle = border_thickness)
-      addStyle(
-        wb_,
-        sheet_,
-        style = temp_style,
-        rows = r_,
-        cols = c_,
-        gridExpand = TRUE,
-        stack = TRUE
-      )
-      
-    }, sub_rows, sub_cols, directions)
-  }
-
- 
 
 
 #'  Replace periods in name vector with spaces
@@ -1115,16 +1652,16 @@ LoadSubjectData <- function() {
   
   projEnv$RcaInputDF[3, "S1"] <-
     paste(projEnv$MlsCompsDF[1, "Address"], projEnv$MlsCompsDF[1, "CityStateZip"])
-  projEnv$RcaInputDF[4, "S1"] <- "N/A"
+  projEnv$RcaInputDF[4, "S1"] <- ColExists(1,"ParcelNbr")
    projEnv$RcaInputDF[4, "S4"] <- paste(round(ColExists(1, "Proximity"),digits=2)," miles")
-  projEnv$RcaInputDF[5, "S1"] <- ColExists(1,"ParcelNbr")
-  projEnv$RcaInputDF[5, "S4"] <- "0 miles"
+  projEnv$RcaInputDF[5, "S1"] <- "N/A"
+  projEnv$RcaInputDF[5, "S4"] <- "N/A"
   projEnv$RcaInputDF[6, "S1"] <- "Factual Value"
   projEnv$RcaInputDF[6, "S4"] <- "Value Contrib."
   projEnv$RcaInputDF[7,  "S1"] <-""
   projEnv$RcaInputDF[7,  "S2"] <-""
   projEnv$RcaInputDF[7,  "S2"] <-""
-  projEnv$RcaInputDF[7,  "S4"] <- projEnv$BaseValue 
+  projEnv$RcaInputDF[7,  "S4"] <- round(as.numeric(projEnv$BaseValue ), digits=0)
       print("abc2")
   projEnv$RcaInputDF[8, "S1"] <- saleDt
   projEnv$RcaInputDF[8, "S2"] <- closeDt
@@ -1252,7 +1789,7 @@ LoadCompData <- function(r ) {
   projEnv$RcaInputDF[6, cnvc1] <- "Value Contrib."
   projEnv$RcaInputDF[6, cna1]  <- "Adjustment"
   # projEnv$RcaInputDF[7,  "S1"] <-"Date of Sale | OffMkt | OnMkt"
-  projEnv$RcaInputDF[7, cnvc1] <-  projEnv$BaseValue
+  projEnv$RcaInputDF[7, cnvc1] <-  round(as.numeric(projEnv$BaseValue) , digits=0)
   projEnv$RcaInputDF[8, cnfv1] <-  saleDt
   projEnv$RcaInputDF[8, cnfv2] <-  closeDt
   projEnv$RcaInputDF[8, cnfv3] <-  ColExistsNumeric(r, "DaysOffMkt")
@@ -1493,7 +2030,7 @@ RCA_SalesGrid <-
 	 
       }
     }
-   
+   # RcaWBStyleUpdate ()
     saveWorkbook(projEnv$RcaWB,
       projEnv$RcaInputFile,
       overwrite = TRUE   )
